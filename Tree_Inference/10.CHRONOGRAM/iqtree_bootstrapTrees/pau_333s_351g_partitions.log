@@ -1,0 +1,755 @@
+IQ-TREE multicore version 2.3.6 for MacOS Intel 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    10-18-113-140.dynapool.wireless.nyu.edu (AVX512, FMA3, 16 GB RAM)
+Command: ./iqtree2 -s pau_333s_351g.fasta -m GTR -bb 1000 -spp pau_333s_351g_partitions -t pau_333s_351g_partitions.contree -wbtl pau_333s_351g_partitions.BS_BL.tree
+Seed:    287492 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr  8 14:11:16 2025
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file pau_333s_351g_partitions ...
+Reading alignment file pau_333s_351g.fasta ... Fasta format detected
+Reading fasta file: done in 1.48688 secs using 88.8% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 102 sites contain only gaps or ambiguous characters.
+Alignment has 333 sequences with 204906 columns, 125144 distinct patterns
+80462 parsimony-informative, 34475 singleton sites, 89969 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.56976 secs using 93.42% CPU
+   1  ERR5006127   36.93%    failed      0.48%
+   2  ERR5033278   24.79%    passed     61.34%
+   3  ERR5033461   20.18%    failed      0.00%
+   4  ERR5033464   15.65%    failed      0.01%
+   5  ERR5033478   22.17%    passed     10.90%
+   6  ERR5033480   27.89%    passed     32.67%
+   7  PAU101       23.15%    passed     50.51%
+   8  PAU108       27.43%    passed     55.33%
+   9  PAU109       27.45%    passed     21.26%
+  10  PAU126       29.65%    passed     33.26%
+  11  PAU157       26.51%    passed     87.97%
+  12  PAU162       23.50%    failed      0.24%
+  13  PAU166       23.22%    passed     13.61%
+  14  PAU175       21.74%    passed     73.56%
+  15  PAU18        41.32%    passed     62.80%
+  16  PAU182       25.89%    passed     28.27%
+  17  PAU198       22.93%    passed     77.21%
+  18  PAU212       30.11%    passed     46.57%
+  19  PAU22        23.85%    failed      3.19%
+  20  PAU220       73.80%    failed      1.24%
+  21  PAU221       23.52%    passed     74.84%
+  22  PAU223       45.99%    passed     62.09%
+  23  PAU232       31.40%    passed     60.68%
+  24  PAU279       23.19%    passed     20.13%
+  25  PAU31        38.00%    passed     98.79%
+  26  PAU316       22.85%    passed     43.95%
+  27  PAU349       23.69%    passed     65.55%
+  28  PAU38        26.65%    passed     36.49%
+  29  PAU385       28.26%    passed     34.57%
+  30  PAU412       39.48%    passed     95.50%
+  31  PAU420       32.89%    passed     77.20%
+  32  PAU446       30.21%    passed     70.87%
+  33  PAU45        35.42%    passed     33.90%
+  34  PAU457       31.52%    passed     30.65%
+  35  PAU46        67.36%    failed      0.01%
+  36  PAU481       60.33%    failed      0.06%
+  37  PAU492       41.57%    passed     77.34%
+  38  PAU498       46.46%    passed     97.37%
+  39  PAU51        22.43%    passed     49.06%
+  40  PAU541       35.69%    passed     57.36%
+  41  PAU544       34.04%    passed     94.20%
+  42  PAU552       31.48%    passed     99.75%
+  43  PAU559       30.33%    passed     96.25%
+  44  PAU618       30.26%    passed     53.00%
+  45  PAU622       53.26%    passed     36.60%
+  46  PAU637       26.51%    passed     33.41%
+  47  PAU64        25.32%    passed     33.52%
+  48  PAU650       44.28%    passed     91.71%
+  49  PAU657       27.44%    passed     49.65%
+  50  PAU667       34.03%    passed     44.97%
+  51  PAU67        23.01%    passed     69.30%
+  52  PAU680       46.81%    passed     94.42%
+  53  PAU687       36.57%    passed     61.51%
+  54  PAU710       40.29%    passed     94.42%
+  55  PAU711       33.53%    passed     78.02%
+  56  PAU712       66.75%    passed     81.77%
+  57  PAU72        25.23%    passed     47.18%
+  58  PAU745       31.15%    passed     68.94%
+  59  PAU754       54.03%    passed     60.11%
+  60  PAU758       27.94%    passed     57.78%
+  61  PAU761       29.72%    passed     31.61%
+  62  PAU765       35.57%    passed     75.77%
+  63  PAU787       54.21%    failed      0.00%
+  64  PAU812       54.99%    passed     33.24%
+  65  PAU83        46.89%    passed     76.05%
+  66  PAU98        26.71%    passed     43.68%
+  67  ERR5006146   16.04%    failed      0.81%
+  68  ERR5033193   18.04%    failed      1.49%
+  69  ERR5033209   29.67%    passed     89.87%
+  70  ERR5033219   18.48%    failed      0.02%
+  71  ERR5033221   17.09%    failed      0.00%
+  72  ERR5033474   18.68%    passed     74.92%
+  73  PAU105       46.20%    passed     80.82%
+  74  PAU111       32.44%    passed     83.11%
+  75  PAU116       32.35%    passed     21.21%
+  76  PAU117       41.67%    passed     87.98%
+  77  PAU12        33.10%    passed     86.02%
+  78  PAU129       33.41%    passed     39.15%
+  79  PAU133       63.53%    passed     95.57%
+  80  PAU14        46.07%    passed     41.47%
+  81  PAU142       37.33%    passed     94.13%
+  82  PAU152       44.75%    passed     63.44%
+  83  PAU156       25.70%    passed     51.37%
+  84  PAU163       28.37%    failed      4.25%
+  85  PAU168       31.19%    passed     62.12%
+  86  PAU169       29.15%    passed     88.06%
+  87  PAU174       25.17%    passed     79.61%
+  88  PAU180       23.21%    passed     85.82%
+  89  PAU2         45.18%    failed      0.00%
+  90  PAU200       30.52%    passed     80.86%
+  91  PAU213       29.71%    passed     24.21%
+  92  PAU230       25.32%    passed     24.51%
+  93  PAU231       30.14%    passed     61.06%
+  94  PAU25        47.99%    passed     81.63%
+  95  PAU252       26.65%    passed     76.73%
+  96  PAU260       50.07%    passed     27.12%
+  97  PAU262       27.77%    passed     81.94%
+  98  PAU264       26.72%    passed     24.81%
+  99  PAU266       25.90%    passed     20.19%
+ 100  PAU27        33.50%    passed     98.46%
+ 101  PAU270       26.23%    passed     38.38%
+ 102  PAU280       33.22%    passed     61.59%
+ 103  PAU288       27.72%    passed     53.38%
+ 104  PAU292       41.60%    passed     93.89%
+ 105  PAU30        30.99%    passed     58.93%
+ 106  PAU321       32.84%    passed     41.25%
+ 107  PAU33        27.60%    passed     48.37%
+ 108  PAU332       26.25%    passed     26.18%
+ 109  PAU334       25.63%    passed     20.79%
+ 110  PAU34        38.85%    passed     34.79%
+ 111  PAU357       30.37%    passed     35.27%
+ 112  PAU36        29.81%    passed     38.67%
+ 113  PAU37        29.10%    passed     64.73%
+ 114  PAU383       31.88%    passed     57.86%
+ 115  PAU388       24.94%    passed     87.68%
+ 116  PAU4         21.77%    failed      0.00%
+ 117  PAU40        30.00%    passed     96.87%
+ 118  PAU43        28.99%    passed      6.81%
+ 119  PAU430       31.88%    passed     96.56%
+ 120  PAU450       37.64%    passed     86.84%
+ 121  PAU451       37.64%    passed     26.18%
+ 122  PAU455       32.03%    passed     77.29%
+ 123  PAU468       33.64%    passed     73.98%
+ 124  PAU474       38.11%    passed     70.61%
+ 125  PAU48        37.17%    passed     47.07%
+ 126  PAU480       51.13%    passed     23.42%
+ 127  PAU484       45.67%    passed     98.14%
+ 128  PAU488       41.79%    passed     98.22%
+ 129  PAU5         64.09%    failed      3.56%
+ 130  PAU502       29.28%    passed     82.87%
+ 131  PAU507       38.69%    passed     78.69%
+ 132  PAU508       41.15%    passed     57.54%
+ 133  PAU511       49.37%    passed     32.38%
+ 134  PAU518       42.26%    passed     80.72%
+ 135  PAU519       41.01%    passed     95.64%
+ 136  PAU52        37.62%    passed     25.27%
+ 137  PAU528       31.52%    passed     28.39%
+ 138  PAU53        55.52%    failed      0.83%
+ 139  PAU54        51.82%    failed      0.80%
+ 140  PAU571       32.20%    passed     93.36%
+ 141  PAU572       43.37%    passed     21.25%
+ 142  PAU574       39.13%    passed     29.44%
+ 143  PAU587       32.75%    failed      0.09%
+ 144  PAU596       36.58%    failed      0.20%
+ 145  PAU60        32.44%    passed     36.92%
+ 146  PAU601       32.66%    passed     96.65%
+ 147  PAU608       19.84%    passed     49.61%
+ 148  PAU610       27.22%    passed     29.55%
+ 149  PAU617       24.89%    passed     75.10%
+ 150  PAU62        32.45%    passed     85.75%
+ 151  PAU626       24.39%    passed     66.99%
+ 152  PAU63        35.41%    passed     43.80%
+ 153  PAU631       59.60%    passed     27.91%
+ 154  PAU639       39.70%    passed     38.76%
+ 155  PAU647       34.68%    passed     69.33%
+ 156  PAU654       77.85%    passed     41.12%
+ 157  PAU661       39.10%    passed     98.03%
+ 158  PAU672       56.35%    passed     78.97%
+ 159  PAU68        60.76%    passed     57.04%
+ 160  PAU684       46.82%    passed     20.73%
+ 161  PAU690       33.51%    passed     80.60%
+ 162  PAU691       27.38%    passed     65.41%
+ 163  PAU7         24.82%    passed     19.43%
+ 164  PAU708       45.65%    passed     58.56%
+ 165  PAU713       24.82%    passed     44.80%
+ 166  PAU739       44.63%    passed     61.02%
+ 167  PAU755       31.25%    passed     84.59%
+ 168  PAU756       31.92%    passed     85.66%
+ 169  PAU759       55.33%    passed     44.59%
+ 170  PAU76        43.33%    passed     59.65%
+ 171  PAU764       32.47%    passed     77.67%
+ 172  PAU767       34.39%    passed     59.73%
+ 173  PAU772       32.98%    passed     27.61%
+ 174  PAU782       34.77%    passed     47.03%
+ 175  PAU792       53.70%    failed      0.00%
+ 176  PAU80        65.90%    passed     31.86%
+ 177  PAU85        38.91%    passed     37.03%
+ 178  PAU88        24.44%    passed     88.74%
+ 179  PAU9         31.96%    passed     59.51%
+ 180  PAU91        35.13%    passed     97.29%
+ 181  PAU94        26.43%    passed     72.15%
+ 182  PAU102       44.64%    passed     85.27%
+ 183  PAU103       30.37%    passed     64.21%
+ 184  PAU106       37.96%    passed     26.69%
+ 185  PAU107       44.12%    passed     49.28%
+ 186  PAU11        41.73%    passed     24.59%
+ 187  PAU115       56.07%    passed      6.85%
+ 188  PAU119       61.85%    passed     76.86%
+ 189  PAU121       31.04%    passed     20.48%
+ 190  PAU123       65.74%    passed     98.62%
+ 191  PAU125       38.77%    passed     25.35%
+ 192  PAU127       54.58%    passed     70.59%
+ 193  PAU13        56.78%    passed     82.53%
+ 194  PAU131       59.09%    passed     79.51%
+ 195  PAU136       39.65%    passed     60.35%
+ 196  PAU137       53.70%    passed     79.41%
+ 197  PAU139       41.69%    passed     68.79%
+ 198  PAU143       55.80%    passed     54.13%
+ 199  PAU15        65.78%    failed      0.86%
+ 200  PAU153       58.37%    passed     50.48%
+ 201  PAU159       70.63%    passed     31.92%
+ 202  PAU16        35.91%    passed     32.28%
+ 203  PAU164       65.35%    passed     11.38%
+ 204  PAU172       34.72%    passed     73.75%
+ 205  PAU181       28.91%    passed     65.50%
+ 206  PAU183       65.04%    passed     50.07%
+ 207  PAU185       41.58%    passed     57.76%
+ 208  PAU188       37.93%    passed     95.02%
+ 209  PAU194       45.11%    passed     96.49%
+ 210  PAU21        33.28%    passed     63.96%
+ 211  PAU24        39.96%    passed     18.78%
+ 212  PAU29        42.66%    passed     35.75%
+ 213  PAU300       47.45%    passed     23.76%
+ 214  PAU308       48.16%    passed     78.23%
+ 215  PAU309       33.51%    passed     77.20%
+ 216  PAU311       38.36%    passed     65.52%
+ 217  PAU330       51.00%    passed      6.61%
+ 218  PAU337       35.36%    passed     12.82%
+ 219  PAU344       34.65%    passed     92.48%
+ 220  PAU35        55.73%    failed      1.66%
+ 221  PAU375       37.99%    passed     50.46%
+ 222  PAU382       33.45%    passed     46.47%
+ 223  PAU386       31.48%    passed     22.04%
+ 224  PAU39        54.86%    failed      1.55%
+ 225  PAU390       34.92%    passed     78.70%
+ 226  PAU403       33.83%    passed     69.67%
+ 227  PAU415       32.95%    passed     12.06%
+ 228  PAU421       35.82%    passed     58.20%
+ 229  PAU423       59.40%    failed      1.31%
+ 230  PAU438       53.80%    passed      5.83%
+ 231  PAU459       51.37%    failed      0.63%
+ 232  PAU464       70.39%    failed      2.39%
+ 233  PAU470       43.60%    passed     37.14%
+ 234  PAU471       46.89%    passed     76.46%
+ 235  PAU472       55.52%    passed     13.41%
+ 236  PAU477       62.32%    passed     14.77%
+ 237  PAU478       51.26%    passed     98.01%
+ 238  PAU487       47.01%    passed     95.26%
+ 239  PAU49        51.23%    passed     79.13%
+ 240  PAU491       41.54%    passed     44.71%
+ 241  PAU509       54.59%    failed      3.00%
+ 242  PAU514       50.84%    failed      2.89%
+ 243  PAU527       39.08%    passed     93.81%
+ 244  PAU533       43.05%    passed     62.58%
+ 245  PAU547       69.46%    passed     28.93%
+ 246  PAU558       39.61%    passed     48.46%
+ 247  PAU560       35.46%    passed     67.12%
+ 248  PAU573       36.68%    passed     90.55%
+ 249  PAU575       33.55%    passed     84.02%
+ 250  PAU579       31.49%    passed     32.24%
+ 251  PAU606       77.41%    passed     14.61%
+ 252  PAU607       61.81%    failed      3.53%
+ 253  PAU61        32.03%    passed     72.00%
+ 254  PAU615       35.18%    passed     88.47%
+ 255  PAU628       39.82%    passed     30.38%
+ 256  PAU632       54.46%    passed     86.64%
+ 257  PAU640       55.55%    failed      1.81%
+ 258  PAU653       34.84%    passed     92.10%
+ 259  PAU656       25.52%    passed     43.65%
+ 260  PAU66        48.09%    passed     21.35%
+ 261  PAU666       36.29%    passed     96.85%
+ 262  PAU669       69.08%    passed     16.41%
+ 263  PAU670       51.76%    passed     95.26%
+ 264  PAU686       49.49%    passed     25.77%
+ 265  PAU689       46.22%    passed     79.43%
+ 266  PAU70        30.20%    passed     47.72%
+ 267  PAU71        27.89%    passed     68.38%
+ 268  PAU722       77.49%    passed     10.15%
+ 269  PAU727       40.82%    passed     57.02%
+ 270  PAU749       33.91%    passed     47.85%
+ 271  PAU750       49.32%    passed     51.64%
+ 272  PAU768       32.85%    passed     48.55%
+ 273  PAU769       35.02%    passed     78.82%
+ 274  PAU770       41.03%    passed     70.01%
+ 275  PAU773       40.01%    passed     13.90%
+ 276  PAU784       49.08%    failed      0.00%
+ 277  PAU786       30.32%    passed     45.26%
+ 278  PAU788       31.79%    failed      0.00%
+ 279  PAU79        40.25%    passed     82.71%
+ 280  PAU802       50.71%    passed     79.05%
+ 281  PAU808       45.01%    passed     65.06%
+ 282  PAU81        52.83%    passed     74.82%
+ 283  PAU86        60.86%    passed     10.26%
+ 284  PAU89        33.68%    passed     98.92%
+ 285  PAU93        31.44%    passed     51.38%
+ 286  PAU130       72.37%    passed      6.26%
+ 287  PAU17        68.09%    passed      5.72%
+ 288  PAU179       37.00%    passed     93.64%
+ 289  PAU184       51.13%    passed     75.35%
+ 290  PAU197       48.33%    passed     30.49%
+ 291  PAU203       38.02%    passed     45.58%
+ 292  PAU23        76.90%    passed     21.36%
+ 293  PAU253       58.20%    failed      2.53%
+ 294  PAU275       59.21%    passed     44.35%
+ 295  PAU284       52.57%    passed     85.63%
+ 296  PAU294       58.73%    passed     26.04%
+ 297  PAU343       39.60%    passed     66.17%
+ 298  PAU408       38.34%    passed     76.54%
+ 299  PAU581       45.72%    failed      0.13%
+ 300  PAU582       68.00%    failed      0.00%
+ 301  PAU583       61.12%    failed      0.13%
+ 302  PAU586       52.48%    passed     31.95%
+ 303  PAU588       55.14%    passed      7.60%
+ 304  PAU589       59.53%    failed      0.21%
+ 305  PAU59        73.84%    passed     72.53%
+ 306  PAU598       56.30%    passed     46.01%
+ 307  PAU600       77.76%    passed     62.76%
+ 308  PAU636       54.46%    passed     60.14%
+ 309  PAU644       68.43%    passed     78.91%
+ 310  PAU675       60.87%    failed      0.64%
+ 311  PAU69        47.72%    passed     27.65%
+ 312  PAU695       67.36%    passed     14.92%
+ 313  PAU702       70.00%    failed      0.07%
+ 314  PAU705       79.33%    passed     31.61%
+ 315  PAU725       51.71%    passed     49.31%
+ 316  PAU803       67.97%    failed      3.15%
+ 317  PAU90        47.75%    passed     18.52%
+ 318  PAU97        46.64%    passed     51.33%
+ 319  PAU161       70.67%    failed      0.99%
+ 320  PAU165       60.63%    passed      8.72%
+ 321  PAU228       71.22%    failed      0.03%
+ 322  PAU298       80.39%    passed     13.38%
+ 323  PAU55        68.59%    failed      0.08%
+ 324  PAU56        64.00%    failed      2.92%
+ 325  PAU57        71.93%    failed      0.11%
+ 326  PAU58        82.69%    failed      0.09%
+ 327  PAU591       73.24%    failed      0.62%
+ 328  PAU595       74.32%    passed     14.11%
+ 329  PAU645       67.07%    passed     25.07%
+ 330  PAU699       64.45%    failed      0.56%
+ 331  PAU709       59.15%    failed      2.21%
+ 332  PAU100       80.14%    failed      0.52%
+ 333  PAU605       74.95%    failed      0.71%
+WARNING: 97 sequences contain more than 50% gaps/ambiguity
+****  TOTAL        42.22%  53 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Partition file is not in NEXUS format, assuming RAxML-style partition file...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	66	828	291	319	GTR	clean_4471
+2	DNA	159	2111	761	992	GTR	clean_4527
+3	DNA	272	399	143	194	GTR	clean_4691
+4	DNA	291	463	179	217	GTR	clean_4724
+5	DNA	301	205	111	72	GTR	clean_4744
+6	DNA	244	552	201	277	GTR	clean_4757
+7	DNA	213	1333	618	516	GTR	clean_4793
+8	DNA	286	740	276	317	GTR	clean_4796
+9	DNA	245	675	237	340	GTR	clean_4802
+10	DNA	278	402	225	88	GTR	clean_4806
+11	DNA	291	1263	539	511	GTR	clean_4848
+12	DNA	333	301	134	128	GTR	clean_4889
+13	DNA	264	396	190	127	GTR	clean_4890
+14	DNA	250	473	173	213	GTR	clean_4893
+15	DNA	283	672	257	324	GTR	clean_4932
+16	DNA	203	765	295	376	GTR	clean_4942
+17	DNA	147	558	176	265	GTR	clean_4951
+18	DNA	283	719	317	230	GTR	clean_4954
+19	DNA	311	437	160	218	GTR	clean_4989
+20	DNA	46	1935	481	943	GTR	clean_4992
+21	DNA	252	828	353	338	GTR	clean_5018
+22	DNA	39	560	105	369	GTR	clean_5032
+23	DNA	269	576	239	226	GTR	clean_5034
+24	DNA	269	405	143	204	GTR	clean_5038
+25	DNA	294	139	44	86	GTR	clean_5064
+26	DNA	265	350	177	131	GTR	clean_5090
+27	DNA	298	203	75	89	GTR	clean_5104
+28	DNA	312	648	306	203	GTR	clean_5116
+29	DNA	315	557	188	281	GTR	clean_5123
+30	DNA	314	739	316	340	GTR	clean_5131
+31	DNA	263	549	225	254	GTR	clean_5138
+32	DNA	304	944	413	405	GTR	clean_5162
+33	DNA	121	1518	400	896	GTR	clean_5163
+34	DNA	307	542	233	221	GTR	clean_5168
+35	DNA	298	488	261	120	GTR	clean_5177
+36	DNA	297	468	234	175	GTR	clean_5188
+37	DNA	215	438	168	128	GTR	clean_5200
+38	DNA	252	465	187	167	GTR	clean_5206
+39	DNA	303	365	187	135	GTR	clean_5220
+40	DNA	327	554	159	337	GTR	clean_5257
+41	DNA	295	189	65	107	GTR	clean_5260
+42	DNA	297	932	351	411	GTR	clean_5264
+43	DNA	326	433	209	163	GTR	clean_5271
+44	DNA	255	895	368	338	GTR	clean_5273
+45	DNA	218	685	231	339	GTR	clean_5280
+46	DNA	244	690	241	374	GTR	clean_5296
+47	DNA	308	595	180	324	GTR	clean_5299
+48	DNA	120	452	225	94	GTR	clean_5304
+49	DNA	233	420	163	194	GTR	clean_5318
+50	DNA	266	1237	564	452	GTR	clean_5326
+51	DNA	317	417	173	164	GTR	clean_5328
+52	DNA	152	1665	657	676	GTR	clean_5333
+53	DNA	318	859	223	509	GTR	clean_5335
+54	DNA	309	784	396	259	GTR	clean_5339
+55	DNA	313	669	293	292	GTR	clean_5343
+56	DNA	294	195	76	102	GTR	clean_5347
+57	DNA	284	328	150	137	GTR	clean_5348
+58	DNA	297	370	143	186	GTR	clean_5354
+59	DNA	304	297	131	127	GTR	clean_5355
+60	DNA	325	342	141	169	GTR	clean_5357
+61	DNA	254	890	551	255	GTR	clean_5366
+62	DNA	163	1464	487	778	GTR	clean_5398
+63	DNA	252	798	273	365	GTR	clean_5404
+64	DNA	132	1461	359	958	GTR	clean_5406
+65	DNA	281	1090	414	482	GTR	clean_5421
+66	DNA	320	452	201	192	GTR	clean_5422
+67	DNA	114	1482	431	770	GTR	clean_5426
+68	DNA	296	781	349	309	GTR	clean_5427
+69	DNA	318	405	193	160	GTR	clean_5428
+70	DNA	314	310	150	122	GTR	clean_5430
+71	DNA	261	549	156	332	GTR	clean_5434
+72	DNA	101	978	292	517	GTR	clean_5449
+73	DNA	196	1065	429	479	GTR	clean_5454
+74	DNA	307	259	117	89	GTR	clean_5460
+75	DNA	280	357	151	145	GTR	clean_5463
+76	DNA	245	611	212	299	GTR	clean_5464
+77	DNA	276	453	198	185	GTR	clean_5469
+78	DNA	289	355	164	138	GTR	clean_5477
+79	DNA	306	754	288	311	GTR	clean_5489
+80	DNA	152	1265	430	591	GTR	clean_5502
+81	DNA	297	538	219	203	GTR	clean_5513
+82	DNA	96	810	421	281	GTR	clean_5528
+83	DNA	298	247	114	83	GTR	clean_5531
+84	DNA	300	343	168	134	GTR	clean_5536
+85	DNA	303	474	220	196	GTR	clean_5551
+86	DNA	217	868	270	416	GTR	clean_5554
+87	DNA	172	234	74	117	GTR	clean_5562
+88	DNA	288	147	59	71	GTR	clean_5578
+89	DNA	321	423	184	199	GTR	clean_5594
+90	DNA	199	1716	580	850	GTR	clean_5596
+91	DNA	232	1236	379	680	GTR	clean_5599
+92	DNA	128	1349	392	689	GTR	clean_5614
+93	DNA	263	894	439	308	GTR	clean_5620
+94	DNA	293	994	362	505	GTR	clean_5634
+95	DNA	299	574	269	233	GTR	clean_5639
+96	DNA	298	251	76	149	GTR	clean_5642
+97	DNA	280	476	237	131	GTR	clean_5644
+98	DNA	308	126	47	65	GTR	clean_5656
+99	DNA	309	342	147	137	GTR	clean_5660
+100	DNA	239	687	345	205	GTR	clean_5664
+101	DNA	299	681	279	308	GTR	clean_5670
+102	DNA	223	346	124	158	GTR	clean_5699
+103	DNA	152	477	224	150	GTR	clean_5702
+104	DNA	244	455	200	179	GTR	clean_5703
+105	DNA	307	1455	535	557	GTR	clean_5716
+106	DNA	257	621	237	238	GTR	clean_5721
+107	DNA	278	218	137	46	GTR	clean_5733
+108	DNA	294	351	164	124	GTR	clean_5744
+109	DNA	274	797	327	319	GTR	clean_5770
+110	DNA	285	582	238	248	GTR	clean_5772
+111	DNA	258	576	254	234	GTR	clean_5791
+112	DNA	148	267	113	95	GTR	clean_5802
+113	DNA	259	515	205	200	GTR	clean_5815
+114	DNA	269	912	395	395	GTR	clean_5816
+115	DNA	304	459	202	195	GTR	clean_5821
+116	DNA	315	383	214	109	GTR	clean_5822
+117	DNA	185	515	172	247	GTR	clean_5840
+118	DNA	203	563	237	225	GTR	clean_5841
+119	DNA	209	781	384	196	GTR	clean_5842
+120	DNA	249	251	137	78	GTR	clean_5843
+121	DNA	272	347	137	173	GTR	clean_5849
+122	DNA	331	525	259	189	GTR	clean_5853
+123	DNA	303	660	268	263	GTR	clean_5857
+124	DNA	216	484	191	225	GTR	clean_5858
+125	DNA	35	727	196	452	GTR	clean_5859
+126	DNA	220	722	323	237	GTR	clean_5865
+127	DNA	322	567	218	241	GTR	clean_5866
+128	DNA	297	538	225	237	GTR	clean_5870
+129	DNA	275	334	142	131	GTR	clean_5893
+130	DNA	211	227	71	118	GTR	clean_5894
+131	DNA	255	1328	358	729	GTR	clean_5899
+132	DNA	289	482	207	215	GTR	clean_5910
+133	DNA	223	940	348	436	GTR	clean_5913
+134	DNA	303	455	204	162	GTR	clean_5918
+135	DNA	205	453	203	181	GTR	clean_5919
+136	DNA	151	2390	381	1504	GTR	clean_5921
+137	DNA	141	1083	390	440	GTR	clean_5922
+138	DNA	267	573	190	308	GTR	clean_5926
+139	DNA	295	596	284	254	GTR	clean_5933
+140	DNA	263	378	158	161	GTR	clean_5936
+141	DNA	181	499	176	244	GTR	clean_5940
+142	DNA	275	264	103	117	GTR	clean_5941
+143	DNA	170	603	250	278	GTR	clean_5942
+144	DNA	194	1217	365	602	GTR	clean_5943
+145	DNA	244	771	286	370	GTR	clean_5944
+146	DNA	220	753	406	190	GTR	clean_5945
+147	DNA	203	444	170	193	GTR	clean_5949
+148	DNA	268	423	164	192	GTR	clean_5950
+149	DNA	306	348	132	188	GTR	clean_5958
+150	DNA	246	759	360	265	GTR	clean_5960
+151	DNA	307	254	100	103	GTR	clean_5968
+152	DNA	287	561	247	231	GTR	clean_5974
+153	DNA	280	447	230	124	GTR	clean_5977
+154	DNA	315	471	213	196	GTR	clean_5980
+155	DNA	271	690	296	292	GTR	clean_5981
+156	DNA	323	275	102	144	GTR	clean_5990
+157	DNA	271	495	215	229	GTR	clean_6000
+158	DNA	307	228	78	114	GTR	clean_6003
+159	DNA	286	612	198	247	GTR	clean_6004
+160	DNA	206	880	260	487	GTR	clean_6016
+161	DNA	283	535	173	278	GTR	clean_6026
+162	DNA	267	629	284	224	GTR	clean_6029
+163	DNA	258	394	168	140	GTR	clean_6034
+164	DNA	84	1137	370	602	GTR	clean_6036
+165	DNA	269	770	282	353	GTR	clean_6038
+166	DNA	141	1357	395	754	GTR	clean_6041
+167	DNA	193	237	89	98	GTR	clean_6048
+168	DNA	282	539	178	283	GTR	clean_6050
+169	DNA	246	1191	498	444	GTR	clean_6051
+170	DNA	296	403	214	144	GTR	clean_6056
+171	DNA	294	406	198	126	GTR	clean_6064
+172	DNA	313	255	103	115	GTR	clean_6068
+173	DNA	306	471	200	167	GTR	clean_6072
+174	DNA	181	1258	383	634	GTR	clean_6098
+175	DNA	276	315	133	139	GTR	clean_6110
+176	DNA	196	361	166	135	GTR	clean_6114
+177	DNA	166	1744	628	915	GTR	clean_6119
+178	DNA	283	358	140	165	GTR	clean_6128
+179	DNA	269	328	126	139	GTR	clean_6130
+180	DNA	268	849	376	352	GTR	clean_6139
+181	DNA	293	441	219	144	GTR	clean_6148
+182	DNA	262	409	155	189	GTR	clean_6150
+183	DNA	205	220	74	113	GTR	clean_6164
+184	DNA	280	1063	318	498	GTR	clean_6175
+185	DNA	215	968	375	398	GTR	clean_6176
+186	DNA	320	304	119	133	GTR	clean_6198
+187	DNA	266	697	338	229	GTR	clean_6216
+188	DNA	304	411	183	163	GTR	clean_6221
+189	DNA	255	633	264	237	GTR	clean_6226
+190	DNA	299	387	131	214	GTR	clean_6227
+191	DNA	225	599	301	209	GTR	clean_6238
+192	DNA	275	522	199	241	GTR	clean_6258
+193	DNA	255	490	182	219	GTR	clean_6265
+194	DNA	177	278	125	103	GTR	clean_6270
+195	DNA	284	441	150	262	GTR	clean_6274
+196	DNA	207	369	124	191	GTR	clean_6282
+197	DNA	254	779	368	259	GTR	clean_6284
+198	DNA	163	1179	486	497	GTR	clean_6295
+199	DNA	223	350	136	134	GTR	clean_6298
+200	DNA	283	429	240	101	GTR	clean_6299
+201	DNA	242	375	131	158	GTR	clean_6303
+202	DNA	215	1283	478	524	GTR	clean_6318
+203	DNA	233	837	321	404	GTR	clean_6320
+204	DNA	248	986	373	455	GTR	clean_6363
+205	DNA	280	1799	396	1158	GTR	clean_6366
+206	DNA	295	633	234	284	GTR	clean_6373
+207	DNA	246	540	192	213	GTR	clean_6376
+208	DNA	305	694	387	209	GTR	clean_6378
+209	DNA	283	291	133	96	GTR	clean_6379
+210	DNA	310	695	192	426	GTR	clean_6383
+211	DNA	253	391	152	156	GTR	clean_6384
+212	DNA	273	783	286	432	GTR	clean_6387
+213	DNA	127	1061	364	450	GTR	clean_6389
+214	DNA	240	558	316	122	GTR	clean_6393
+215	DNA	260	239	76	117	GTR	clean_6398
+216	DNA	305	543	273	191	GTR	clean_6401
+217	DNA	264	408	137	206	GTR	clean_6404
+218	DNA	194	712	177	392	GTR	clean_6405
+219	DNA	256	558	109	340	GTR	clean_6406
+220	DNA	290	258	102	109	GTR	clean_6407
+221	DNA	316	550	260	229	GTR	clean_6412
+222	DNA	196	364	139	165	GTR	clean_6420
+223	DNA	233	169	53	99	GTR	clean_6430
+224	DNA	286	284	87	146	GTR	clean_6432
+225	DNA	293	327	143	140	GTR	clean_6439
+226	DNA	311	306	150	120	GTR	clean_6447
+227	DNA	226	431	121	208	GTR	clean_6448
+228	DNA	252	185	106	50	GTR	clean_6449
+229	DNA	221	990	401	442	GTR	clean_6450
+230	DNA	271	398	92	274	GTR	clean_6454
+231	DNA	288	416	110	228	GTR	clean_6457
+232	DNA	290	868	189	539	GTR	clean_6458
+233	DNA	283	699	334	244	GTR	clean_6459
+234	DNA	230	771	363	265	GTR	clean_6460
+235	DNA	209	559	359	155	GTR	clean_6462
+236	DNA	259	505	210	195	GTR	clean_6483
+237	DNA	240	991	419	437	GTR	clean_6487
+238	DNA	270	396	113	210	GTR	clean_6488
+239	DNA	277	411	162	179	GTR	clean_6492
+240	DNA	231	1140	400	587	GTR	clean_6494
+241	DNA	162	558	309	126	GTR	clean_6496
+242	DNA	284	279	90	160	GTR	clean_6498
+243	DNA	216	1419	457	721	GTR	clean_6500
+244	DNA	307	322	104	183	GTR	clean_6506
+245	DNA	253	195	110	72	GTR	clean_6507
+246	DNA	47	245	100	94	GTR	clean_6526
+247	DNA	204	947	391	381	GTR	clean_6527
+248	DNA	226	378	159	146	GTR	clean_6528
+249	DNA	283	363	164	138	GTR	clean_6531
+250	DNA	268	213	74	101	GTR	clean_6532
+251	DNA	201	747	326	298	GTR	clean_6533
+252	DNA	184	588	295	185	GTR	clean_6538
+253	DNA	264	203	53	116	GTR	clean_6540
+254	DNA	128	1564	531	673	GTR	clean_6544
+255	DNA	248	252	107	102	GTR	clean_6550
+256	DNA	278	439	184	188	GTR	clean_6552
+257	DNA	139	162	60	88	GTR	clean_6557
+258	DNA	297	353	147	163	GTR	clean_6559
+259	DNA	302	599	218	303	GTR	clean_6563
+260	DNA	286	509	153	252	GTR	clean_6565
+261	DNA	296	465	218	183	GTR	clean_6570
+262	DNA	282	635	252	259	GTR	clean_6572
+263	DNA	303	472	221	153	GTR	clean_6601
+264	DNA	242	504	244	197	GTR	clean_6620
+265	DNA	308	502	226	171	GTR	clean_6631
+266	DNA	287	534	279	174	GTR	clean_6636
+267	DNA	264	457	210	195	GTR	clean_6639
+268	DNA	279	444	241	115	GTR	clean_6641
+269	DNA	294	309	141	101	GTR	clean_6649
+270	DNA	250	857	279	443	GTR	clean_6652
+271	DNA	277	590	335	136	GTR	clean_6660
+272	DNA	222	885	302	418	GTR	clean_6667
+273	DNA	249	414	130	209	GTR	clean_6679
+274	DNA	212	658	313	200	GTR	clean_6685
+275	DNA	201	538	191	209	GTR	clean_6689
+276	DNA	286	216	101	72	GTR	clean_6705
+277	DNA	288	400	162	193	GTR	clean_6713
+278	DNA	231	877	336	432	GTR	clean_6717
+279	DNA	290	136	94	29	GTR	clean_6732
+280	DNA	313	248	125	83	GTR	clean_6733
+281	DNA	316	288	124	126	GTR	clean_6738
+282	DNA	259	236	66	146	GTR	clean_6746
+283	DNA	257	583	289	216	GTR	clean_6779
+284	DNA	308	237	79	132	GTR	clean_6780
+285	DNA	299	348	140	161	GTR	clean_6782
+286	DNA	240	193	71	89	GTR	clean_6785
+287	DNA	253	318	148	110	GTR	clean_6791
+288	DNA	228	710	378	184	GTR	clean_6792
+289	DNA	292	647	252	301	GTR	clean_6797
+290	DNA	285	354	153	115	GTR	clean_6825
+291	DNA	286	397	201	116	GTR	clean_6848
+292	DNA	287	492	144	237	GTR	clean_6854
+293	DNA	197	720	359	211	GTR	clean_6859
+294	DNA	226	376	80	228	GTR	clean_6860
+295	DNA	235	491	157	278	GTR	clean_6864
+296	DNA	298	449	231	149	GTR	clean_6865
+297	DNA	309	357	186	127	GTR	clean_6875
+298	DNA	301	491	233	198	GTR	clean_6882
+299	DNA	145	423	196	150	GTR	clean_6883
+300	DNA	300	128	70	45	GTR	clean_6886
+301	DNA	30	207	41	146	GTR	clean_6893
+302	DNA	231	443	172	200	GTR	clean_6909
+303	DNA	227	846	272	472	GTR	clean_6913
+304	DNA	239	732	331	250	GTR	clean_6914
+305	DNA	249	1044	371	564	GTR	clean_6924
+306	DNA	286	417	167	199	GTR	clean_6933
+307	DNA	258	335	118	173	GTR	clean_6946
+308	DNA	250	829	383	264	GTR	clean_6947
+309	DNA	292	403	200	153	GTR	clean_6954
+310	DNA	238	336	116	175	GTR	clean_6955
+311	DNA	305	400	176	178	GTR	clean_6958
+312	DNA	250	663	303	213	GTR	clean_6961
+313	DNA	303	281	111	118	GTR	clean_6962
+314	DNA	221	639	271	254	GTR	clean_6968
+315	DNA	215	170	74	77	GTR	clean_6969
+316	DNA	322	263	86	139	GTR	clean_6977
+317	DNA	215	624	319	227	GTR	clean_6978
+318	DNA	264	789	334	327	GTR	clean_6979
+319	DNA	264	337	132	111	GTR	clean_6992
+320	DNA	236	140	55	67	GTR	clean_6995
+321	DNA	307	304	76	194	GTR	clean_7013
+322	DNA	191	589	191	310	GTR	clean_7021
+323	DNA	313	219	104	76	GTR	clean_7024
+324	DNA	312	320	143	121	GTR	clean_7028
+325	DNA	258	606	263	195	GTR	clean_7029
+326	DNA	280	234	101	91	GTR	clean_7067
+327	DNA	307	454	192	210	GTR	clean_7111
+328	DNA	262	596	279	244	GTR	clean_7128
+329	DNA	252	403	203	150	GTR	clean_7135
+330	DNA	304	300	124	139	GTR	clean_7136
+331	DNA	286	642	328	186	GTR	clean_7141
+332	DNA	272	643	274	237	GTR	clean_7174
+333	DNA	268	348	161	121	GTR	clean_7194
+334	DNA	263	404	198	140	GTR	clean_7241
+335	DNA	304	262	120	101	GTR	clean_7273
+336	DNA	300	867	348	394	GTR	clean_7279
+337	DNA	254	1265	294	806	GTR	clean_7313
+338	DNA	293	684	281	326	GTR	clean_7324
+339	DNA	313	402	219	110	GTR	clean_7325
+340	DNA	258	276	140	100	GTR	clean_7331
+341	DNA	197	381	149	172	GTR	clean_7333
+342	DNA	321	420	198	166	GTR	clean_7336
+343	DNA	282	327	80	187	GTR	clean_7361
+344	DNA	281	420	198	136	GTR	clean_7363
+345	DNA	305	228	107	81	GTR	clean_7367
+346	DNA	310	144	43	83	GTR	clean_7371
+347	DNA	293	514	226	189	GTR	clean_7572
+348	DNA	270	389	193	133	GTR	clean_7577
+349	DNA	206	357	261	44	GTR	clean_7583
+350	DNA	269	523	299	122	GTR	clean_7602
+351	DNA	307	330	131	141	GTR	clean_7628
+Degree of missing data: 0.276
+Info: multi-threading strategy over partitions
+
+Reading input tree file pau_333s_351g_partitions.contree ...
+Generating 1000 samples for ultrafast bootstrap (seed: 287492)...
+
+NOTE: 1498 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -3565013.536
+Current log-likelihood at step 1: -3407217.190
+Current log-likelihood at step 2: -3406577.946
+Current log-likelihood at step 3: -3406577.479
+Current log-likelihood at step 4: -3406577.310
+Current log-likelihood at step 5: -3406577.207
+Current log-likelihood at step 6: -3406577.138
+Partition-specific rates:  2.876 2.164 0.545 0.533 0.662 0.586 1.463 1.024 0.666 1.595 0.686 1.077 0.746 0.919 0.542 0.678 1.012 0.875 0.547 0.983 1.155 0.586 0.644 0.594 0.603 1.369 0.620 1.416 0.739 0.638 0.941 0.555 0.455 0.585 0.894 0.799 1.095 1.416 1.015 0.398 0.830 0.504 0.766 0.794 0.561 1.125 0.738 1.757 0.518 0.977 0.556 0.688 0.582 1.584 0.718 0.558 0.695 1.674 0.622 0.582 1.442 1.078 0.893 0.469 0.838 0.828 0.614 1.231 0.553 0.578 0.404 0.998 0.618 0.727 0.743 0.848 0.898 0.758 0.841 1.116 0.892 2.164 1.380 0.709 0.692 0.782 0.940 0.546 0.776 0.724 0.966 0.627 0.761 0.807 0.639 0.664 1.123 0.448 0.645 0.733 0.570 0.905 1.086 1.122 0.870 0.706 5.692 0.803 0.750 1.922 1.061 1.371 1.019 6.755 0.567 1.122 0.776 0.904 1.440 1.047 0.491 0.616 0.662 0.626 0.863 1.124 0.580 2.309 0.752 0.594 0.601 0.712 1.269 0.823 0.668 0.935 1.206 0.705 0.961 0.594 0.681 0.590 1.063 0.913 0.505 2.952 0.691 0.722 0.547 1.099 0.960 0.638 1.137 0.629 0.592 0.469 0.626 0.464 1.254 0.812 0.619 1.205 1.017 1.673 1.327 0.617 0.725 0.538 0.678 4.706 0.966 0.540 0.616 0.512 0.626 1.240 3.053 0.700 0.847 0.710 0.722 0.529 0.617 0.705 0.795 0.767 2.302 0.621 0.663 0.620 0.892 0.660 0.612 1.553 0.550 0.430 0.984 0.827 0.906 1.077 0.688 0.787 0.641 0.604 1.447 0.536 1.098 5.531 0.650 0.769 1.141 0.588 1.007 1.368 0.475 0.630 0.649 0.564 0.799 0.645 0.684 0.676 0.973 0.529 1.221 0.679 0.574 1.409 0.630 0.634 0.596 0.589 0.677 0.756 2.555 1.003 0.605 0.669 0.597 0.588 2.457 0.449 0.513 0.549 5.458 1.781 1.131 0.707 0.496 0.560 1.403 1.105 0.512 1.805 0.545 0.615 1.132 0.564 0.528 4.358 0.741 0.698 0.775 0.850 0.977 0.840 0.983 1.340 0.836 0.591 1.824 0.524 0.625 1.406 0.898 0.660 0.551 0.555 8.935 0.765 0.626 0.755 0.764 0.580 0.518 0.760 1.078 1.599 0.868 0.764 0.858 0.695 1.266 0.626 3.371 0.979 0.847 0.833 1.207 0.584 0.808 0.996 0.495 0.688 0.523 0.561 0.592 0.806 0.977 0.533 0.513 0.843 0.653 1.370 1.673 0.727 1.157 0.662 1.091 0.672 0.454 1.071 0.835 0.758 0.775 0.680 0.942 3.415 1.063 0.436 0.981 0.712 0.734 0.994 0.739 1.209 0.636 0.804 0.664 1.067 0.699 0.808 0.630 0.891 0.852 0.446 0.847 1.166 2.068 1.009 0.456
+Parameters optimization took 5 rounds (141.879 sec)
+
+Wrote distance file to... 
+
+Do NNI search on 1 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -3406572.960
+Current log-likelihood at step 1: -3406572.499
+Current log-likelihood at step 2: -3406572.439
+Parameters optimization took 1 rounds (29.304 sec)
+
+BETTER TREE FOUND at iteration 1: -3406572.439
+Finish initializing candidate tree set (2)
+Current best tree score: -3406572.439 / CPU time: 101.074
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 10 / LogL: -3406810.824 / Time: 0h:32m:1s
+Iteration 20 / LogL: -3406917.808 / Time: 1h:2m:13s
+Iteration 30 / LogL: -3407082.466 / Time: 1h:33m:3s (3h:47m:47s left)
+Iteration 40 / LogL: -3407301.655 / Time: 2h:3m:48s (3h:13m:37s left)
+Iteration 50 / LogL: -3407057.135 / Time: 2h:33m:53s (2h:40m:9s left)
+Log-likelihood cutoff on original alignment: -3406828.228
+UFBoot trees printed to pau_333s_351g_partitions.ufboot
+Iteration 60 / LogL: -3408068.641 / Time: 3h:5m:37s (2h:8m:58s left)
+Iteration 70 / LogL: -3408384.777 / Time: 3h:35m:32s (1h:36m:49s left)
+Iteration 80 / LogL: -3407099.867 / Time: 4h:5m:17s (1h:5m:11s left)
