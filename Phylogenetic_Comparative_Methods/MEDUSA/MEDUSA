@@ -1,0 +1,57 @@
+# Written by Rebeca Hernández-Gutiérrez (2023) and edited by Israel L. Cunha Neto (2025)
+# Detecting diversification rate shifts with MEDUSA
+
+setwd("")
+
+library(ape)
+library(devtools)
+
+# Trying Medusa from https://github.com/josephwb/turboMEDUSA
+install_github("josephwb/turboMEDUSA/MEDUSA", dependencies=TRUE)
+library(MEDUSA)
+
+# Read tree
+tree <-read.tree("CI-combined_chronograms_duplicated.tree") #For plotting reasons, the original chronogram was duplicated, making a two-tree file.
+#this will result in a "multiPhylo" object 
+
+tree <- drop.tip(tree, tip = c("Cupania_guatemalensis", "Talisia_nervosa", 
+                             "Guindilia_trinervis")) 
+
+# Reading richness dataset
+rich<-read.csv("Richness.csv", header = T)
+rich
+
+# Estimating diversification rates with the mixed model, the default
+medusa_res<-MEDUSA(phy = tree, richness = rich, model = "mixed", verbose = T)
+medusa_res
+
+class(medusa_res) #"multiMedusa" expected
+
+# Summarizing results
+medusa_sum_multi<-multiMedusaSummary(medusa_res, conTree = tree[[1]],
+                                     plotModelSizes = FALSE, cex = 0.05)
+
+#shift.node sum.prop mean.shift median.shift min.shift max.shift sd.shift
+#shift.node sum.prop mean.shift median.shift min.shift max.shift sd.shift
+#[1,]        227        1  0.1787822    0.1787822 0.1787822 0.1787822        0
+#[2,]        437        1  0.4955880    0.4955880 0.4955880 0.4955880        0
+
+# We ran multiMedusaSummary with two identical trees, because the function "medusaSummary" does not have the same arguments for plotting, 
+#neither does the function plotPrettyTree.
+
+# Plotting
+pdf(file = "Medusa_net_div.pdf", width = 8, height = 11)  # Widen page for right barplot
+plotMultiMedusa(medusa_sum_multi,
+                plotRichnesses = FALSE,
+                annotateRate = "r.mean",
+                time = TRUE,
+                tip.cex = 0.05,
+                label.offset = 0.5,
+                pal = 1)
+
+dev.off()
+
+# Save Medusa results
+save(medusa_res, file = "Medusa_results.rdata")
+
+### End of code ###
