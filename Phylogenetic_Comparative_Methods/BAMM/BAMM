@@ -1,1 +1,183 @@
+# Written by Rebeca Hernández-Gutiérrez (2023) and edited by Israel L. Cunha Neto (2025)
+# Diversification rate estimation using BAMM (http://bamm-project.org/index.html)
+
+library(ape)
+library(BAMMtools)
+
+setwd("")
+
+# Preparing input tree
+
+# Reading tree
+tree <- read.nexus("CI-combined_chronograms.tre")
+
+tree <-drop.tip(tree, tip = c("Cupania_guatemalensis", "Talisia_nervosa", 
+                             "Guindilia_trinervis")) 
+tree
+
+write.tree(phy = tree, file = "paullinieae_V1.tree")
+
+# Now, we start BAMM!
+
+library(BAMMtools)
+  
+# Priors before running BAMM
+setBAMMpriors(read.tree("paullinieae_V1.tree"))
+# automatically writes a .txt file called "my_priors.txt" Which should be copied and
+# pasted in the control file for BAMM to run correctly.
+
+#Run the control file using the comman "bamm -c BAMM_control_Paullinieae.txt" on Terminal 
+
+# Once you have a BAMM completed, follow the instructions below to analyze BAMM output and plotting.
+
+# Check convergence of chains
+mcmcout <- read.csv("Paullinieae_mcmc_out.txt", header=T)
+plot(mcmcout$logLik ~ mcmcout$generation)
+
+# Discard burn-in
+burnstart <- floor(0.1 * nrow(mcmcout))
+postburn <- mcmcout[burnstart:nrow(mcmcout), ]
+
+# Check Effective Sample Size, should be more than 200
+library(coda)
+effectiveSize(postburn$N_shifts) #number of rate shifts sampled at each MCMC generation; tells how well the MCMC chain has sampled the posterior distribution of shift numbers
+effectiveSize(postburn$logLik) #even though its Bayesian it runs likelihood estimates (in every generation)
+#this output is the frequency (if > 200, convergence reached) 
+
+# Now, we should obtain the number of rate shifts
+# read tree (newick format)
+tree <- read.tree("paullinieae_V1.tree")
+
+# read event data file, one output of BAMM
+edata <- getEventData(tree, eventdata = "Paullinieae_event_data.txt", burnin=0.1)
+edata
+
+edata$tipLambda #check the absolute values of the speciation (lambda) rate at the tips.
+
+# Obtaining the probability of rate shifts in the data
+shift_probs <- summary(edata)
+shift_probs # List of possible number of shifts, each one is a model and each model has a posterior probability (prob).
+#shifts     prob
+#1    0.09700
+#2    0.40000
+#3    0.28000
+#4    0.13000
+#5    0.05900
+#6    0.02100
+#7    0.00620
+#8    0.00210
+#9    0.00067
+#10    0.00022
+
+# This indicates that the data most probably have 10 shifts in the diversification rate.
+
+# Bayesian credible sets of shift configurations
+# Identify the 95% credible set of distinct shift configurations 
+css <- credibleShiftSet(edata, expectedNumberOfShifts=1, threshold=5, set.limit = 0.95) 
+
+# Here is the number of distinct shift configurations in the data:
+css$number.distinct
+# [1] 6
+
+# Here are the shift configurations
+plot(css)
+
+summary(css)
+#95 % credible set of rate shift configurations sampled with BAMM
+#Distinct shift configurations in credible set: 7
+#Frequency of 7 shift configurations with highest posterior probability:
+  
+#rank     probability cumulative  Core_shifts
+rank     probability cumulative  Core_shifts
+#1 0.53960671  0.5396067          2
+#2 0.18353516  0.7231419          2
+#3 0.15164982  0.8747917          1
+#4 0.04477280  0.9195645          3
+#5 0.01555383  0.9351183          2
+#6 0.01344295  0.9485613          3
+#7 0.01333185  0.9618931          1
+
+# this last results indicate that the number of rate shifts was 2!
+
+# Now, we estimate the configuration with the maximum a posteriori (MAP) probability.
+best <- getBestShiftConfiguration(edata, expectedNumberOfShifts=1) 
+class(best)
+#"bammdata"
+
+#Plotting
+
+#Plotting speciation rate
+par(mar=c(1, 1, 1, 8))
+plot(x=best, tau = 0.01, method="phylogram", labels = TRUE, legend=TRUE, spex ="s",
+     lwd=0.5, cex=0.1, pal="RdYlBu")
+addBAMMshifts(edata, method="phylogram", par.reset=FALSE, cex=0.4, col= "red",
+              bg="red") #shift circles are always the same, even though the
+#plotted rate is speciation, extinction or net diversification. The circles mean "a shift occurred,
+# in the net diversification rate".
+
+#Plotting extinction rate
+plot(x=best, tau = 0.01, method="phylogram", labels = TRUE, legend=TRUE, spex ="e",
+     lwd=0.5, cex=0.1, pal="RdYlBu")
+addBAMMshifts(edata, method="phylogram", par.reset=FALSE, cex=0.4, col= "red",
+              bg="red") #shift circles are always the same, even though the
+#plotted rate is speciation, extinction or net diversification. The circles mean "a shift occurred,
+# in the net diversification rate".
+
+#Plotting net diversification rate
+plot(x=best, tau = 0.01, method="phylogram", labels = TRUE, legend=TRUE, spex ="netdiv",
+     lwd=0.5, cex=0.1, pal="RdYlBu")
+addBAMMshifts(edata, method="phylogram", par.reset=FALSE, cex=0.4, col= "red",
+              bg="red") #shift circles are always the same, either if the
+#plotted rate is speciation, extinction or net diversification. The circles mean "a shift occurred,
+# in the net diversification rate".
+
+####### Rate Through Time #######
+
+# Define start time as root age
+st <- max(branching.times(tree))
+
+# Define plot area
+par(oma = c(4, 4, 2, 1), mar = c(5, 5, 4, 2)) 
+
+# Speciation
+plotRateThroughTime(edata,
+                    ratetype = "speciation",
+                    intervalCol = adjustcolor("red", 0.3),
+                    avgCol = "red",
+                    start.time = st,
+                    ylim = c(0, 0.5),
+                    cex.axis = 1.5,
+                    cex.lab = 1.5,
+                    yticks = 5
+                    )
+mtext("Speciation", side = 3, line = 0.5, font = 2, cex = 1.8)
+
+# Extinction
+plotRateThroughTime(edata,
+                    ratetype = "extinction",
+                    intervalCol = adjustcolor("blue", 0.3),
+                    avgCol = "blue",
+                    start.time = st,
+                    ylim = c(0, 0.5),
+                    cex.axis = 1.5,
+                    cex.lab = 1.5,
+                    yticks = 5
+                    )
+mtext("Extinction", side = 3, line = 0.5, font = 2, cex = 1.8)
+
+# Net Diversification
+plotRateThroughTime(edata,
+                    ratetype = "netdiv",
+                    intervalCol = adjustcolor("darkgreen", 0.3),
+                    avgCol = "darkgreen",
+                    start.time = st,
+                    ylim = c(0, 0.5),
+                    cex.axis = 1.5,
+                    cex.lab = 1.5,
+                    yticks = 5
+                    )
+
+mtext("Net Diversification", side = 3, line = 0.5, font = 2, cex = 1.8)
+
+### End of code ###
 
