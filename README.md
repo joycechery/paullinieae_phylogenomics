@@ -1,5 +1,6 @@
-This README document describes the bioinformatic workflow for Cunha Neto et al. “Rampant convergent evolution of vascular oddities and a synnovation characterize the rapid radiation of Paullinieae lianas”.
-MAIN FOLDERS.
+#### This README document describes the bioinformatic workflow for Cunha Neto et al. “Rampant convergent evolution of vascular oddities and a synnovation characterize the rapid radiation of Paullinieae lianas”. ####
+
+#### MAIN FOLDERS. ####
 
 -	Tree Inference. This folder houses subfolders accounting for the full tree inference workflow: cleaning raw data--> HybPiper Assembly-->HybPiper Downstream Analyses --> Sequence Alignments --> Maximum Likelihood Tree Building -->Chronogram. 
 -	Phylogenetic Comparative Methods. This folder houses subfolders accounting for all phylogenetic comparative methods analyses: tests of correlated evolution, state-dependent diversification analyses, ancestral state reconstructions of vascular variant evolution. 
