@@ -245,7 +245,8 @@ Subfolder: iqtree_bootstrapTrees. This subfolder contains input and output files
 Subfolder: treepl_chronogram_nosubsp. This subfolder contains the input and output files associated with a treePL time-calibration analysis on the 100 randomly sampled bootstrap trees from the 1000 trees created through the constrained topology iqtree analysis.
 
 Scripts:
-	-	1. extract_bootstrap.py
+
+ -	1. extract_bootstrap.py
 		-	this script will randomly sample 100 bootstrap trees from the 1000 bootstrap tree file “pau_333s_351g_partitions.ufboot” to create a file called “pau_333s_351g_partitions.ufboot_100.tre”
 
 	-	1a.ChangeSampleNames_treePL.sh
@@ -261,6 +262,7 @@ Scripts:
 		-	This script was used to take the raw chronogram tree file and make it into a figure for publication.
 
 Files:
+
 	-	chronogram-taxa.txt
 		-	This file list all the names to be included in the chronogram, which are one per taxa. All subspecies and varieties were collapsed under the species name. This file is needed by DropTips&RootTreesForChronogram.R
 
