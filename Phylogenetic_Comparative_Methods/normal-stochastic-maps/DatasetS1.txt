@@ -1,0 +1,219 @@
+Taxa	Variant_Category	Variant_Pattern	Radlkofer_section	Last_classification	This_study
+Acevedoa_integerrimum_a	Typical	Typical	Ceratadenia	Ceratadenia	Acevedoa
+Allophylastrum_frutescens	Typical	Typical	NA	NA	NA
+Allophylus_leucoclados	Typical	Typical	NA	NA	NA
+Allophylus_psilospermus	Typical	Typical	NA	NA	NA
+Allophylus_semidentatus	Typical	Typical	NA	NA	NA
+Athyana_weinmanniifolia	Typical	Typical	NA	NA	NA
+Bridgesia_incisifolia	Typical	Typical	NA	NA	NA
+Cardiospermum_anomalum	Typical	Typical	Carphospermum	Carphospermum	Cardiospermum
+Cardiospermum_corindum_a	Typical	Typical	Brachyadenia	Brachyadenia	Cardiospermum
+Cardiospermum_grandiflorum_a	Typical	Typical	Ceratadenia	Ceratadenia	Cardiospermum
+Cardiospermum_halicacabum_a	Typical	Typical	Brachyadenia	Brachyadenia	Cardiospermum
+Cardiospermum_urvilleoides	Typical	Typical	Unplaced	Unplaced	Urvillea II
+Diatenopteryx_sorbifolia	Typical	Typical	NA	NA	NA
+Lophostigma_plumosum_a	Typical	Typical	NA	NA	Lophostigma
+Lophostigma_schunkei_a	Typical	Typical	NA	NA	Lophostigma
+Paullinia_acutangula_a	Cambial	Phloem-wedges	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_alata_a	Procambial	Compound	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_alsmithii	Procambial	Compound	Unplaced	Unplaced	Paullinia VI
+Paullinia_anodonta	Typical	Typical	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_austin-smithii	Cambial	Lobed	Unplaced	Unplaced	Paullinia VIII
+Paullinia_bicorniculata_a	Typical	Typical	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_bidentata	Typical	Typical	Pleurotoechus	Pleurotoechus	Paullinia I
+Paullinia_bilobulata_a	Typical	Typical	Pleurotoechus	Pleurotoechus	Paullinia I
+Paullinia_boliviana	Cambial	Lobed	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_bracteosa	Cambial	Typical	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_capreolata_a	Typical	Typical	Enourea	Enourea	Paullinia IV/V
+Paullinia_carpopoda	Cambial	Lobed	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_cauliflora_a	Cambial	Lobed	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_cearensis	Typical	Typical	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_cf._microneura	Typical	Typical	Unplaced	Unplaced	Paullinia I
+Paullinia_clavigera_a	Cambial	Phloem-wedges	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_coriacea_a	Typical	Typical	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_correae	Typical	Typical	Unplaced	Unplaced	Paullinia VII
+Paullinia_costata	Typical	Typical	Pleurotoechus	Pleurotoechus	Paullinia I
+Paullinia_cristata	Typical	Typical	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_cururu_a	Procambial	Compound	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_dasystachya	Cambial	Phloem-wedges	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_degranvillei	Typical	Typical	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_densiflora	Procambial	Compound	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_dodgei	Typical	Typical	Unplaced	Unplaced	Paullinia VII
+Paullinia_echinata	Typical	Typical	Castanella	Castanella	Paullinia I
+Paullinia_elegans_a	Procambial	Compound	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_elliptica	Typical	Typical	Unplaced	Unplaced	Paullinia I
+Paullinia_enneaphylla	Typical	Typical	Caloptilon	Caloptilon	Paullinia VII
+Paullinia_eriocarpa_a	Procambial	Compound	Unplaced	Unplaced	Paullinia VII
+Paullinia_exalata	Procambial	Compound	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_ferruginea	Typical	Typical	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_fistulosa	Typical	Typical	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_fuscescens	Typical	Typical	Caloptilon	Caloptilon	Paullinia I
+Paullinia_globosa_a	Cambial	Phloem-wedges	Unplaced	Unplaced	Paullinia VII
+Paullinia_granatensis	Typical	Typical	Castanella	Castanella	Paullinia I
+Paullinia_hystrix	Typical	Typical	Castanella	Castanella	Paullinia I
+Paullinia_imberbis_a	Cambial	Phloem-wedges	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_ingifolia_a	Typical	Typical	Pachytoechus	Pachytoechus	Paullinia IV/V
+Paullinia_jamaicensis	Typical	Typical	Pleurotoechus	Pleurotoechus	Paullinia I
+Paullinia_josecuatrii	Cambial	Phloem-wedges	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_killipii	Cambial	Lobed+Phloem-wedges	Unplaced	Unplaced	Paullinia VII
+Paullinia_latifolia	Cambial	Phloem-wedges	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_leiocarpa_a	Procambial	Compound	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_lingulata	Typical	Typical	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_livescens	Typical	Typical	Anisoptilon	Anisoptilon	Paullinia IV/V
+Paullinia_macrocarpa_a	Cambial	Lobed	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_macrophylla	Procambial	Compound	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_meliifolia	Typical	Typical	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_micrantha_a	Ectopic-cambia	Ectopic-cambia	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_neglecta_a	Procambial	Compound	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_nobilis	Cambial	Lobed	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_obovata	Cambial	Lobed	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_olivacea_a	Typical	Typical	Pachytoechus	Pachytoechus	Paullinia IV/V
+Paullinia_paullinioides	Typical	Typical	Castanella	Castanella	Paullinia I
+Paullinia_pinnata_a	Procambial	Compound	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_plagioptera	Typical	Typical	Neuroptilon	Neuroptilon	Paullinia IV/V
+Paullinia_platymisca_a	Typical	Typical	Pachytoechus	Pachytoechus	Paullinia I
+Paullinia_prevostiana_a	Typical	Typical	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_pseudota	Ectopic-cambia	Ectopic-cambia	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_reticulata_a	Typical	Typical	Pleurotoechus	Pleurotoechus	Paullinia I
+Paullinia_revoluta	Typical	Typical	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_rhomboidea	Typical	Typical	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_rubiginosa_a	Cambial	Lobed+Phloem-wedges	Diphtherotoechus	Diphtherotoechus	Paullinia IV/V
+Paullinia_rugosa_a	Cambial	Phloem-wedges	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_selenoptera_a	Cambial	Lobed	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_serjaniifolia_a	Cambial	Lobed	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_setosa_a	Typical	Typical	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_simulans_a	Cambial	Phloem-wedges	Unplaced	Unplaced	Paullinia VII
+Paullinia_sp._b	Typical	Typical	NA	NA	NA
+Paullinia_sp._d	Cambial	Phloem-wedges	NA	NA	Paullinia VII
+Paullinia_spicata	Procambial	Compound	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_stellata	Cambial	Lobed+Phloem-wedges	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_stenopetala	Typical	Typical	Diphtherotoechus	Diphtherotoechus	Paullinia IV/V
+Paullinia_stipularis	Cambial	Lobed	Diphtherotoechus	Diphtherotoechus	Paullinia IV/V
+Paullinia_tetragona	Typical	Typical	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_tomentosa	Typical	Typical	Pleurotoechus	Pleurotoechus	Paullinia III
+Paullinia_tricornis	Typical	Typical	Xyloptilon	Xyloptilon	Paullinia IV/V
+Paullinia_trigonia	Ectopic-cambia	Ectopic-cambia	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_trilatera	Procambial	Compound	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_trisulca_a	Cambial	Lobed	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_turbacensis	Cambial	Phloem-wedges	Xyloptilon	Xyloptilon	Paullinia VII
+Paullinia_unifoliolata	Typical	Typical	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_venezuelana	Typical	Typical	Xyloptilon	Xyloptilon	Paullinia IV/V
+Paullinia_verecunda_a	Cambial	Lobed	Unplaced	Unplaced	Paullinia VI
+Paullinia_vespertilio_a	Typical	Typical	Neuroptilon	Neuroptilon	Paullinia IV/V
+Paullinia_weinmanniifolia_a	Ectopic-cambia	Ectopic-cambia	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_xestophylla_a	Typical	Typical	Pachytoechus	Pachytoechus	Paullinia I
+Serjania_acuta	Typical	Typical	Physococcus	Physococcus	Serjania I
+Serjania_acutidentata	Procambial	Compound	Oococcus	Serjania	Serjania I
+Serjania_adenophylla	Procambial	Compound	Unplaced	Unplaced	Serjania III
+Serjania_altissima	Cambial	Phloem-wedges	Eurycoccus	Eurycoccus	Serjania III
+Serjania_ampelopsis	Typical	Typical	Platycoccus	Platycoccus	Serjania VI
+Serjania_atrolineata_a	Procambial	Compound	Dictyococcus	Serjania	Serjania III
+Serjania_bahiana	Typical	Typical	Unplaced	Unplaced	Serjania I
+Serjania_biternata	Typical	Typical	Unplaced	Unplaced	Serjania I
+Serjania_brachycarpa	Typical	Typical	Phacococcus	Serjania	Serjania III
+Serjania_calligera	Typical	Typical	Ceratococcus	Ceratococcus	Serjania IV
+Serjania_caracasana	Procambial+Ectopic-cambia	Compound+Ectopic-cambia	Eucoccus	Serjania	Serjania I
+Serjania_cardiospermoides	Procambial	Compound	Platycoccus	Platycoccus	Serjania VI
+Serjania_clematidifolia	Procambial	Compound	Simococcus	Serjania	Serjania II
+Serjania_columbiana	Procambial	Compound	Syncoccus	Serjania	Serjania III
+Serjania_communis_a	Procambial	Compound	Platycoccus	Platycoccus	Serjania VI
+Serjania_confertiflora_a	Procambial	Compound	Platycoccus	Confertiflora	Serjania II
+Serjania_coradinii	Typical	Typical	Unplaced	Unplaced	Serjania V
+Serjania_cornigera_a	Cambial	Phloem-wedges	Ceratococcus	Ceratococcus	Serjania III
+Serjania_corrugata_a	Procambial+Ectopic-cambia	Divided+Ectopic-cambia	Eurycoccus	Eurycoccus	Serjania V
+Serjania_crassifolia	Procambial	Compound	Simococcus	Serjania	Serjania II
+Serjania_diffusa	Procambial	Compound	Syncoccus	Serjania	Serjania IV
+Serjania_dumicola	Procambial	Compound	Platycoccus	Platycoccus	Serjania VI
+Serjania_dura	Cambial	Typical	Eurycoccus	Eurycoccus	Serjania V
+Serjania_emarginata	Typical	Typical	Physococcus	Physococcus	Serjania III
+Serjania_eriocarpa_a	Typical	Typical	Syncoccus	Serjania	Serjania VII
+Serjania_erythrocaulis	Procambial	Divided	Unplaced	Unplaced	Serjania V
+Serjania_faveolata	Ectopic-cambia	Ectopic-cambia	Eucoccus	Serjania	Serjania V
+Serjania_ferruginea	Procambial	Compound	Platycoccus	Platycoccus	Serjania VI
+Serjania_flaviflora	Typical	Typical	Physococcus	Physococcus	Serjania III
+Serjania_fluminensis_a	Procambial	Compound	Unplaced	Unplaced	Serjania II
+Serjania_foveata	Typical	Typical	Platycoccus	Platycoccus	Serjania I
+Serjania_fuscifolia	Procambial	Compound	Simococcus	Serjania	Serjania II
+Serjania_glutinosa	Typical	Typical	Eurycoccus	Unplaced	Serjania V
+Serjania_grammatophora	Typical	Typical	Phacococcus	Serjania	Serjania I
+Serjania_hatschbachii	Procambial	Compound	Unplaced	Platycoccus	Serjania VI
+Serjania_impressa	Procambial	Compound	Syncoccus	Serjania	Serjania II
+Serjania_inebrians	Procambial	Compound	NA	NA	Serjania III
+Serjania_inflata	Procambial	Compound	Physococcus	Physococcus	Serjania I
+Serjania_inscripta	Procambial	Compound	Platycoccus	Confertiflora	Serjania II
+Serjania_insignis	Procambial	Compound	Syncoccus	Serjania	Serjania III
+Serjania_lancistipula	Procambial	Divided	Unplaced	Unplaced	Serjania V
+Serjania_laruotteana	Procambial	Compound	Eucoccus	Platycoccus	Serjania I
+Serjania_lateritia	Typical	Typical	Eurycoccus	Eurycoccus	Serjania III
+Serjania_laxiflora	Typical	Typical	Eurycoccus	Eurycoccus	Serjania V
+Serjania_leptocarpa	Procambial	Compound	Platycoccus	Platycoccus	Serjania VI
+Serjania_longistipula	Procambial	Compound	Physococcus	Physococcus	Serjania IV
+Serjania_mansiana_a	Typical	Typical	Syncoccus	Serjania	Serjania VII
+Serjania_marginata_a	Procambial	Compound	Eucoccus	Serjania	Serjania I
+Serjania_membranacea	Typical	Typical	Holcococcus	Serjania	Serjania III
+Serjania_meridionalis_a	Ectopic-cambia	Ectopic-cambia	Syncoccus	Serjania	Serjania I
+Serjania_mexicana_a	Cambial+Ectopic-cambia	Phloem-wedges+Ectopic-cambia	Phacococcus	Serjania	Serjania I
+Serjania_mollis_a	Procambial	Compound	Ceratococcus	Ceratococcus	Serjania III
+Serjania_monogyna	Procambial	Compound	Unplaced	Unplaced	Serjania II
+Serjania_noxia	Procambial	Compound	Syncoccus	Serjania	Serjania II
+Serjania_nutans	Procambial	Compound	Oococcus	Serjania	Serjania II
+Serjania_orbicularis	Typical	Typical	Syncoccus	Serjania	Serjania I
+Serjania_ovalifolia	Procambial	Compound	Simococcus	Serjania	Serjania III
+Serjania_oxyphylla	Typical	Typical	Physococcus	Physococcus	Serjania I
+Serjania_paniculata	Procambial	Compound	Dictyococcus	Serjania	Serjania III
+Serjania_paradoxa	Procambial+Ectopic-cambia	Divided+Ectopic-cambia	Eurycoccus	Eurycoccus	Serjania V
+Serjania_paucidentata_a	Procambial	Compound	Oococcus	Serjania	Serjania I
+Serjania_pedicellaris	Typical	Typical	Eurycoccus	Eurycoccus	Serjania V
+Serjania_perulacea	Procambial+Ectopic-cambia	Compound+Ectopic-cambia	Oococcus	Serjania	Serjania I
+Serjania_piscatoria	Procambial+Cambial+Ectopic-cambia	Compound+Fissured+Ectopic-cambia	Eucoccus	Serjania	Serjania II
+Serjania_platycarpa_a	Typical	Typical	Eurycoccus	Eurycoccus	Serjania VII
+Serjania_polystachya	Typical	Typical	Physococcus	Physococcus	Serjania III
+Serjania_psilophylla	Typical	Typical	Physococcus	Physococcus	Serjania I
+Serjania_pterarthra	Typical	Typical	Unplaced	NA	Serjania I
+Serjania_purpurascens	Procambial	Compound	Syncoccus	Serjania	Serjania II
+Serjania_pyramidata_a	Procambial+Cambial+Ectopic-cambia	Compound+Phloem-wedges+Ectopic-cambia	Eucoccus	Serjania	Serjania II
+Serjania_racemosa	Cambial	Phloem-wedges	Physococcus	Physococcus	Serjania III
+Serjania_rhombea	Procambial	Compound	Syncoccus	Serjania	Serjania III
+Serjania_rigida	Procambial	Compound	Physococcus	Physococcus	Serjania I
+Serjania_rubicaulis	Cambial	Phloem-wedges	Phacococcus	Serjania	Serjania I
+Serjania_rufa_a	Procambial	Compound	Syncoccus	Serjania	Serjania III
+Serjania_rufisepala	Typical	Typical	Physococcus	Physococcus	Serjania I
+Serjania_salzmanniana	Cambial	Phloem-wedges	Eurycoccus	Eurycoccus	Serjania V
+Serjania_scopulifera	Procambial+Cambial	Compound+Phloem-wedges	Oococcus	Serjania	Serjania I
+Serjania_seemannii	Procambial	Compound	Eucoccus	Serjania	Serjania I
+Serjania_seriana_a	Procambial	Compound	Unplaced	NA	Serjania III
+Serjania_serjanioides	Typical	Typical	Unplaced	NA	Serjania III
+Serjania_sphaerococca_a	Procambial	Compound	Eucoccus	Serjania	Serjania I
+Serjania_striata	Typical	Typical	Physococcus	Physococcus	Serjania I
+Serjania_subimpunctata	Cambial	Phloem-wedges	Eurycoccus	Eurycoccus	Serjania V
+Serjania_subrotundifolia	Procambial	Compound	Simococcus	Serjania	Serjania II
+Serjania_sufferruginea	Procambial	Compound	Physococcus	Physococcus	Serjania IV
+Serjania_tailloniana	Procambial	Compound	Unplaced	NA	Serjania III
+Serjania_tenuifolia	Procambial	Compound	Simococcus	Serjania	Serjania II
+Serjania_tenuis	Procambial	Compound	Platycoccus	Platycoccus	Serjania VI
+Serjania_trachygona	Procambial	Compound	Unplaced	NA	Serjania III
+Serjania_tripleuria	Procambial	Compound	Unplaced	Unplaced	Serjania I
+Serjania_triquetra	Procambial	Compound	Physococcus	Physococcus	Serjania III
+Serjania_tristis	Cambial	Phloem-wedges	Syncoccus	Serjania	Serjania I
+Serjania_unidentata	Procambial	Compound	Unplaced	Platycoccus	Serjania VI
+Serjania_yucatanensis	Procambial	Compound	Unplaced	Unplaced	Serjania III
+Thinouia_compressa_a	Typical	Typical	Petalodine	Petalodine	Thinouia
+Thinouia_mucronata_a	Ectopic-cambia	Ectopic-cambia	Petalodine	Petalodine	Thinouia
+Thinouia_myriantha_a	Typical	Typical	Lepidodine	Lepidodine	Thinouia
+Thinouia_paraguaiensis_a	Typical	Typical	Unplaced	Unplaced	Thinouia
+Thinouia_scandens	Ectopic-cambia	Ectopic-cambia	Petalodine	Petalodine	Thinouia
+Thinouia_silveirae	Typical	Typical	Unplaced	Unplaced	Thinouia
+Thinouia_trifoliolata_a	Typical	Typical	Unplaced	Unplaced	Thinouia
+Thinouia_ventricosa_a	Ectopic-cambia	Ectopic-cambia	Petalodine	Petalodine	Thinouia
+Thouinia_acuminata	Typical	Typical	NA	NA	NA
+Thouinia_trifoliata	Typical	Typical	NA	NA	NA
+Urvillea_andersonii	Cambial	Lobed	Unplaced	Stenelytron	Urvillea II
+Urvillea_chacoensis_a	Cambial	Lobed	Unplaced	Urvillea	Urvillea I
+Urvillea_filipes	Ectopic-cambia	Ectopic-cambia	Physelytron	Urvillea	Urvillea I
+Urvillea_glabra	Cambial	Lobed	Physelytron	Urvillea	Urvillea I
+Urvillea_intermedia	Typical	Typical	Physelytron	Urvillea	Urvillea I
+Urvillea_laevis_a	Cambial	Fissured	Stenelytron	Stenelytron	Urvillea II
+Urvillea_oliveirae	Typical	Typical	Unplaced	Urvillea	Urvillea I
+Urvillea_stipitata	Cambial	Lobed+Phloem-wedges	Stenelytron	Stenelytron	Urvillea II
+Urvillea_ulmacea_a	Cambial	Lobed	Physelytron	Urvillea	Urvillea I
+Urvillea_uniloba_a	Cambial	Lobed+Phloem-wedges	Physelytron	Urvillea	Urvillea I
