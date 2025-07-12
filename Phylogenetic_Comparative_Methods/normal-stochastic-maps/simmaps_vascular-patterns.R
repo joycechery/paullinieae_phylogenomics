@@ -1,4 +1,4 @@
-#Script to generate stochastic maps for vascular patterns by Dr. Joyce G. Onyenedum
+#Script to generate stochastic maps for vascular categories by Dr. Joyce G. Onyenedum, sourcing plot_simmap.R by Dr. Michael May
 
 library(phytools)
 library(corHMM)
