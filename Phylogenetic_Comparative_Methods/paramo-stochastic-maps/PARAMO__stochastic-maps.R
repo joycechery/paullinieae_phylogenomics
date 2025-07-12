@@ -1,5 +1,5 @@
 #This is modified from the tutorial 2 here:  https://github.com/diegosasso/ontophylo_tutorials/blob/main/ontophylo_tutorial2_paramo.Rmd
-#final version by Dr. Joyce G. Onyenedum
+#final version by Dr. Joyce G. Onyenedum with the aid of ChatGPT
 
 ## Load packages.
 
