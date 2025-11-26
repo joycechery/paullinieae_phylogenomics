@@ -1,5 +1,5 @@
 ###############################################################################
-# Stochastic Character Mapping for Variant Patterns
+# Stochastic Character Mapping for Variant Categories
 # Joyce G. Onyenedum with help from ChatGPT
 ###############################################################################
 
@@ -18,7 +18,7 @@ tree <- ladderize(tree)
 data <- read.delim("DatasetS1.txt", row.names = 1)
 
 # ---- Trait selection & prep ----
-trait_column <- "Variant_Pattern"
+trait_column <- "Variant_Category"
 datum <- data[, trait_column, drop = FALSE]
 datum <- datum[complete.cases(datum), , drop = FALSE]
 
@@ -29,20 +29,9 @@ pruned_tree <- keep.tip(tree, species)
 
 # ---- Explicit state ordering (biological order) ----
 state_levels <- c(
-  "Typical", 
-  "Divided", 
-  "Compound", 
-  "Phloem-wedges", 
-  "Fissured", 
-  "Lobed", 
-  "Ectopic-cambia", 
-  "Divided+Ectopic-cambia", 
-  "Compound+Ectopic-cambia", 
-  "Compound+Fissured+Ectopic-cambia", 
-  "Compound+Phloem-wedges", 
-  "Compound+Phloem-wedges+Ectopic-cambia", 
-  "Phloem-wedges+Ectopic-cambia", 
-  "Lobed+Phloem-wedges"
+  "Typical", "Procambial", "Cambial", "Ectopic-cambia",
+  "Procambial+Cambial", "Procambial+Cambial+Ectopic-cambia",
+  "Procambial+Ectopic-cambia", "Cambial+Ectopic-cambia"
 )
 
 # Force factor levels in the intended order (important!)
@@ -59,11 +48,11 @@ cat("\nNumeric coding of states (1 = first level):\n")
 print(data.frame(State_Number = seq_along(state_levels), State_Name = state_levels))
 
 #To get the simmaps, you have two options:
+###OPTION 1: if you want to just read in the saved RDS file with the 1000 simmaps for categories, run line 52, THEN SKIP OVER to line 79
+simmap.trees <- readRDS("simmap.trees_vc.RDS")
 
-###OPTION 1: if you want to just read in the saved RDS file with the 1000 simmaps for categories, run line 64, then SKIP OVER to line 90
-simmap.trees <- readRDS("simmap.trees_vp.RDS")
+###OPTION 2: If you want to actually make the simmmaps of vascular categories, then run lines  57-76
 
-###OPTION 2: If you want to actually make the simmmaps of vascular categories, then run lines  67 onward. 
 # Fit models using corHMM
 models <- c("ER", "SYM", "ARD")
 fit_corHMM <- lapply(models, function(model) {
@@ -84,34 +73,22 @@ simmap.trees <- makeSimmap(tree = pruned_tree, data = cor_data, model = Q, rate.
 cor_data$State
 
 # Save results
-saveRDS(simmap.trees, file = "simmap.trees_vp.RDS")
+saveRDS(simmap.trees, file = "simmap.trees_vc.RDS")
 
 ######## PLOT SIMMAPS
 state_levels <- c(
-  "Typical", 
-  "Divided", 
-  "Compound", 
-  "Phloem-wedges", 
-  "Fissured", 
-  "Lobed", 
-  "Ectopic-cambia", 
-  "Divided+Ectopic-cambia", 
-  "Compound+Ectopic-cambia", 
-  "Compound+Fissured+Ectopic-cambia", 
-  "Compound+Phloem-wedges", 
-  "Compound+Phloem-wedges+Ectopic-cambia", 
-  "Phloem-wedges+Ectopic-cambia", 
-  "Lobed+Phloem-wedges"
+  "Typical", "Procambial", "Cambial", "Ectopic-cambia",
+  "Procambial+Cambial", "Procambial+Cambial+Ectopic-cambia",
+  "Procambial+Ectopic-cambia", "Cambial+Ectopic-cambia"
 )
-
 sim_states <- as.character(1:length(state_levels))
-col_vp <- c("grey", "violet", "tomato", "gold2", "purple3", "lightblue","blue", "mediumpurple1", "forestgreen", "orange","brown4", "#CCFA00", "deeppink3", "tan")   
-
-names(col_vp) <- as.character(1:length(state_levels))
+col_vc <- c("grey", "tomato", "#0099FF", "gold2",
+            "deeppink3", "mediumpurple", "darkgreen", "darkblue")
+names(col_vc) <- as.character(1:length(state_levels))
 #check it worked
-print(data.frame(State_Number = names(col_vp),
+print(data.frame(State_Number = names(col_vc),
                  State_Name = state_levels,
-                 Color = col_vp))
+                 Color = col_vc))
 
 foo <- function(x) {
   # first state on each edge's map
@@ -147,10 +124,8 @@ plot_simmap(time_tree = simmap.trees[[1]],
             show.tip.label = T, label.offset = .45,
             lwd = 2.5,
             label.cex = .45,
-            colors = col_vp, edge.width=0, nt=10001)
+            colors = col_vc, edge.width=0, nt=10001)
 
-nodelabels(pie=pies,cex=0.16,piecol=col_vp, lwd=1)
-add.simmap.legend(leg = state_levels, colors = col_vp, prompt = TRUE, vertical = TRUE)
-title(main = "Vascular Variant Patterns", font.main = 2, line = -1)
-
-#EXPORT 9 X 13 PDF
+nodelabels(pie=pies,cex=0.16,piecol=col_vc, lwd=1)
+add.simmap.legend(leg = state_levels, colors = col_vc, prompt = TRUE, vertical = TRUE)
+title(main = "Vascular Variant Categories", font.main = 2, line = -1)
