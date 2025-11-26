@@ -250,10 +250,10 @@ Scripts:
 		-	this script will randomly sample 100 bootstrap trees from the 1000 bootstrap tree file “pau_333s_351g_partitions.ufboot” to create a file called “pau_333s_351g_partitions.ufboot_100.tre”
 
 	-	1a.ChangeSampleNames_treePL.sh
-		-	This file uses the function “sed” to find and replace sample ID (e.g., PAU24) in pau_333s_351g_partitions.ufboot_100.tre  into species names (“Paullinia_pinnata_a”). 
+		-	This file uses the function “sed” to find and replace sample ID (e.g., PAU24) in pau_333s_351g_partitions.ufboot_100.tre  into species names (e.g.,“Paullinia_pinnata_a”) in pau_333s_351g_partitions.ufboot_100_names.tre. 
 
 	-	2.DropTips&RootTreesForChronogram.R
-		-	This script uses the chronogram-taxa.txt namelist to prune each of the 100 input tree (pau_333s_351g_partitions.ufboot_100.tre), and exports each pruned tree into folder called “prunedTrees”
+		-	This script uses the chronogram-taxa.txt namelist to prune each of the 100 input tree with species names (pau_333s_351g_partitions.ufboot_100_names.tre), and exports each pruned tree into folder called “prunedTrees”
 
 	-	3.TreePL_loop.py
 		-	This script uses treePL and the “config_template.txt” file to loop through each of the pruned trees to time calibrate each of them and export each chronogram into a subfolder called “chronograms”
