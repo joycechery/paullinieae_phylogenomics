@@ -317,24 +317,34 @@ The workflow to generate the chronogram is outlined below:
 
 ## PHYLOGENETIC COMPARATIVE METHODS SUBFOLDERS ###
 
-Subfolder: normal-simmaps. This subfolder contains the code and data for the normal stochastic mapping analyses (Fig. S11 and S12).
+Subfolder: stochastic-character-maps & heatmaps. This subfolder contains the code and data for the stochastic mapping analyses (Fig. 4, S8) and heatmaps of transition rates between vascular categories and pattersn (Fig. S10)
 
 -	Script: simmaps_vascular-categories.R (will need to source plot_simmap.R)
 -	Data: DatasetS1.txt
--	Input Tree: CI-combined_chronograms
+-	Input Tree: CI-combined_chronograms.tre
 -	Simmap results: simmap.trees_vc.RDS
 
 -	Script: simmaps_vascular-patterns.R  (will need to source plot_simmap.R)
 -	Data: DatasetS1.txt
--	Input Tree: CI-combined_chronograms
+-	Input Tree: CI-combined_chronograms.tre
 -	Simmap results: simmap.trees_vp.RDS
 
-Subfolder: paramo-stochastic-maps: This subfolder contains the code and data for ancestral state reconstruction using PARAMO (Fig. 4).
+-	Script: simmaps_tendrils.R  (will need to source plot_simmap.R)
+-	Data: DatasetS1.txt
+-	Input Tree: CI-combined_chronograms.tre
+-	Simmap results: simmap.trees_tendrils.RDS
 
--	Script: PARAMO_stochastic-maps.R
--	Data: data_PARAMO.txt
--	Input Tree: CI-combined_chronograms
--	Simmap results: results in subfolder called simmaps
+-	Script: simmaps_habits.R  (will need to source plot_simmap.R)
+-	Data: DatasetS1.txt
+-	Input Tree: CI-combined_chronograms.tre
+-	Simmap results: simmap.trees_habits.RDS
+
+-	Script: HeatMap-patterns_vascular-patterns.R
+-	Data: simmap.trees_vp.RDS
+  
+-	Script: HeatMap-patterns_vascular-categories.R
+-	Data: simmap.trees_vc.RDS
+  
 
 Subfolder: Phylogenetic signal. This subfolder contains the code and data to estimate phylogenetic signal with vascular variants. 
 
