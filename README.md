@@ -250,7 +250,7 @@ Scripts:
 		-	this script will randomly sample 100 bootstrap trees from the 1000 bootstrap tree file “pau_333s_351g_partitions.ufboot” to create a file called “pau_333s_351g_partitions.ufboot_100.tre”
 
 	-	1a.ChangeSampleNames_treePL.sh
-		-	This file uses the function “sed” to find and replace sample ID (e.g., PAU24) in pau_333s_351g_partitions.ufboot_100.tre  into species names (e.g.,“Paullinia_pinnata_a”) in pau_333s_351g_partitions.ufboot_100_names.tre. 
+		-	This file uses the function “sed” to find and replace sample ID (e.g., PAU24) in pau_333s_351g_partitions.ufboot_100.tre into species names (e.g.,“Paullinia_pinnata_a”) in pau_333s_351g_partitions.ufboot_100_names.tre. 
 
 	-	2.DropTips&RootTreesForChronogram.R
 		-	This script uses the chronogram-taxa.txt namelist to prune each of the 100 input tree with species names (pau_333s_351g_partitions.ufboot_100_names.tre), and exports each pruned tree into folder called “prunedTrees”
@@ -289,30 +289,30 @@ The workflow to generate the chronogram is outlined below:
 
 2.	Sample 100 randomly selected trees to root and prune
 	-	In terminal
-		i.	python3 1.extract_bootstrap.py
-			-	this will  randomly subset 100 trees from the 1000 trees within pau_333s_351g_partitions.ufboot 
-		ii.	./1a.ChangeSampleNames_treePL.sh
+		-	python3 1.extract_bootstrap.py
+			-	this will  randomly subset 100 trees from the 1000 trees within pau_333s_351g_partitions.ufboot
+		-	./1a.ChangeSampleNames_treePL.sh
 			-	This will change sample ID to species names in each of the 100 trees
 	-	In R
-		i.	Run the script 2.DropTips&RootTreesForChronogram.R
-			1.	This will prune the tips down to the taxa listed in chronogam-taxa.txt, and generate the “prunedTrees” folder
+		-	Run the script 2.DropTips&RootTreesForChronogram.R
+			- This will prune the tips down to the taxa listed in chronogam-taxa.txt, and generate the “prunedTrees” folder
 
 3.	Time calibrate trees
-	-	In terminal (navigate to the directory with “prunedTrees” )
-		i.	python3 3.TreePL_loop.py
+	-	In terminal (navigate to the main directory (treepl_chronogram_nosubsp) that has 3.TreePL_loop.py and  the “prunedTrees” directory)
+		- 	python3 3.TreePL_loop.py
 			-	this will use treePL to time calibrate each of the pruned trees and deposit them into a new folder called “chronograms”
 
 4.	Generate chronogram
 	-	In terminal (within the newly generated “chronograms” folder)
-		i.	cat *.tre > combined_chronograms.tre
-		ii.	Open combined_chronograms.tre in Figtree and export as a nexus tree  combined_chronograms.nexus
+		- 	cat *.tre > combined_chronograms.tre
+		- 	Open combined_chronograms.tre in Figtree and export as a nexus tree  combined_chronograms.nexus
 
 -	Download and open TreeAnnotator (https://beast.community/treeannotator) 
-		i.	Settings:
+		-  Settings:
 			1.	Input Tree “combined_chronograms.nexus”  
 			2.	Target tree type “Maximum clade credibility tree”
 			3.	Node heights “Median Heights”
-		ii.	Output Tree CI-combined_chronograms.tre
+		- Output Tree CI-combined_chronograms.tre
 			-	This is is the chronogram.
 
 ## PHYLOGENETIC COMPARATIVE METHODS SUBFOLDERS ###
