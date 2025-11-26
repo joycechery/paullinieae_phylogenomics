@@ -319,30 +319,30 @@ The workflow to generate the chronogram is outlined below:
 
 Subfolder: stochastic-character-maps & heatmaps. This subfolder contains the code and data for the stochastic mapping analyses (Fig. 4, S8) and heatmaps of transition rates between vascular categories and pattersn (Fig. S10)
 
--	Script: simmaps_vascular-categories.R (will need to source plot_simmap.R)
--	Data: DatasetS1.txt
--	Input Tree: CI-combined_chronograms.tre
--	Simmap results: simmap.trees_vc.RDS
+Script: simmaps_vascular-categories.R (will need to source plot_simmap.R)
+  -  Data: DatasetS1.txt
+  -   Input Tree: CI-combined_chronograms.tre
+  -   Simmap results: simmap.trees_vc.RDS
 
--	Script: simmaps_vascular-patterns.R  (will need to source plot_simmap.R)
+Script: simmaps_vascular-patterns.R  (will need to source plot_simmap.R)
 -	Data: DatasetS1.txt
 -	Input Tree: CI-combined_chronograms.tre
 -	Simmap results: simmap.trees_vp.RDS
 
--	Script: simmaps_tendrils.R  (will need to source plot_simmap.R)
+Script: simmaps_tendrils.R  (will need to source plot_simmap.R)
 -	Data: DatasetS1.txt
 -	Input Tree: CI-combined_chronograms.tre
 -	Simmap results: simmap.trees_tendrils.RDS
 
--	Script: simmaps_habits.R  (will need to source plot_simmap.R)
+Script: simmaps_habits.R  (will need to source plot_simmap.R)
 -	Data: DatasetS1.txt
 -	Input Tree: CI-combined_chronograms.tre
 -	Simmap results: simmap.trees_habits.RDS
 
--	Script: HeatMap-patterns_vascular-patterns.R
+Script: HeatMap-patterns_vascular-patterns.R
 -	Data: simmap.trees_vp.RDS
   
--	Script: HeatMap-patterns_vascular-categories.R
+Script: HeatMap-patterns_vascular-categories.R
 -	Data: simmap.trees_vc.RDS
   
 
