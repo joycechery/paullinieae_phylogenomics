@@ -1,0 +1,219 @@
+Taxa	Variant_Category	Variant_Pattern	Habit	Tendrils	Radlkofer_section	Last_classification	This_study
+Pacevedoa_integerrimum_a	Typical	Typical	Liana	Present	Ceratadenia	Ceratadenia	Pacevedoa
+Allophylastrum_frutescens	Typical	Typical	Tree	Absent	NA	NA	NA
+Allophylus_leucoclados	Typical	Typical	Tree	Absent	NA	NA	NA
+Allophylus_psilospermus	Typical	Typical	Tree	Absent	NA	NA	NA
+Allophylus_semidentatus	Typical	Typical	Tree	Absent	NA	NA	NA
+Athyana_weinmanniifolia	Typical	Typical	Tree	Absent	NA	NA	NA
+Bridgesia_incisifolia	Typical	Typical	Shrub	Absent	NA	NA	NA
+Cardiospermum_anomalum	Typical	Typical	Liana	Present	Carphospermum	Carphospermum	Cardiospermum
+Cardiospermum_corindum_a	Typical	Typical	Liana	Present	Brachyadenia	Brachyadenia	Cardiospermum
+Cardiospermum_grandiflorum_a	Typical	Typical	Liana	Present	Ceratadenia	Ceratadenia	Cardiospermum
+Cardiospermum_halicacabum_a	Typical	Typical	Liana	Present	Brachyadenia	Brachyadenia	Cardiospermum
+Cardiospermum_urvilleoides	Typical	Typical	Liana	Present	Unplaced	Unplaced	Urvillea II
+Diatenopteryx_sorbifolia	Typical	Typical	Tree	Absent	NA	NA	NA
+Lophostigma_plumosum_a	Typical	Typical	Liana	Present	NA	NA	Lophostigma
+Lophostigma_schunkei_a	Typical	Typical	Liana	Present	NA	NA	Lophostigma
+Paullinia_acutangula_a	Cambial	Phloem-wedges	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_alata_a	Procambial	Compound	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_alsmithii	Procambial	Compound	Liana	Present	Unplaced	Unplaced	Paullinia VI
+Paullinia_anodonta	Typical	Typical	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_austin-smithii	Cambial	Lobed	Liana	Present	Unplaced	Unplaced	Paullinia VIII
+Paullinia_bicorniculata_a	Typical	Typical	Liana	Present	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_bidentata	Typical	Typical	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia I
+Paullinia_bilobulata_a	Typical	Typical	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia I
+Paullinia_boliviana	Cambial	Lobed	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_bracteosa	Cambial	Typical	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_capreolata_a	Typical	Typical	Liana	Present	Enourea	Enourea	Paullinia IV/V
+Paullinia_carpopoda	Cambial	Lobed	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_cauliflora_a	Cambial	Lobed	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_cearensis	Typical	Typical	Liana	Present	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_cf._microneura	Typical	Typical	Liana	Present	Unplaced	Unplaced	Paullinia I
+Paullinia_clavigera_a	Cambial	Phloem-wedges	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_coriacea_a	Typical	Typical	Liana	Present	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_correae	Typical	Typical	Liana	Present	Unplaced	Unplaced	Paullinia VII
+Paullinia_costata	Typical	Typical	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia I
+Paullinia_cristata	Typical	Typical	Liana	Present	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_cururu_a	Procambial	Compound	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_dasystachya	Cambial	Phloem-wedges	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_degranvillei	Typical	Typical	Liana	Present	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_densiflora	Procambial	Compound	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_dodgei	Typical	Typical	Liana	Present	Unplaced	Unplaced	Paullinia VII
+Paullinia_echinata	Typical	Typical	Liana	Present	Castanella	Castanella	Paullinia I
+Paullinia_elegans_a	Procambial	Compound	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_elliptica	Typical	Typical	Liana	Present	Unplaced	Unplaced	Paullinia I
+Paullinia_enneaphylla	Typical	Typical	Liana	Present	Caloptilon	Caloptilon	Paullinia VII
+Paullinia_eriocarpa_a	Procambial	Compound	Liana	Present	Unplaced	Unplaced	Paullinia VII
+Paullinia_exalata	Procambial	Compound	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_ferruginea	Typical	Typical	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_fistulosa	Typical	Typical	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_fuscescens	Typical	Typical	Liana	Present	Caloptilon	Caloptilon	Paullinia I
+Paullinia_globosa_a	Cambial	Phloem-wedges	Liana	Present	Unplaced	Unplaced	Paullinia VII
+Paullinia_granatensis	Typical	Typical	Liana	Present	Castanella	Castanella	Paullinia I
+Paullinia_hystrix	Typical	Typical	Liana	Present	Castanella	Castanella	Paullinia I
+Paullinia_imberbis_a	Cambial	Phloem-wedges	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_ingifolia_a	Typical	Typical	Liana	Present	Pachytoechus	Pachytoechus	Paullinia IV/V
+Paullinia_jamaicensis	Typical	Typical	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia I
+Paullinia_josecuatrii	Cambial	Phloem-wedges	Liana	Present	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_killipii	Cambial	Lobed+Phloem-wedges	Liana	Present	Unplaced	Unplaced	Paullinia VII
+Paullinia_latifolia	Cambial	Phloem-wedges	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_leiocarpa_a	Procambial	Compound	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_lingulata	Typical	Typical	Liana	Present	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_livescens	Typical	Typical	Liana	Present	Anisoptilon	Anisoptilon	Paullinia IV/V
+Paullinia_macrocarpa_a	Cambial	Lobed	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_macrophylla	Procambial	Compound	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_meliifolia	Typical	Typical	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_micrantha_a	Ectopic-cambia	Ectopic-cambia	Liana	Present	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_neglecta_a	Procambial	Compound	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_nobilis	Cambial	Lobed	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_obovata	Cambial	Lobed	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_olivacea_a	Typical	Typical	Liana	Present	Pachytoechus	Pachytoechus	Paullinia IV/V
+Paullinia_paullinioides	Typical	Typical	Liana	Present	Castanella	Castanella	Paullinia I
+Paullinia_pinnata_a	Procambial	Compound	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_plagioptera	Typical	Typical	Liana	Present	Neuroptilon	Neuroptilon	Paullinia IV/V
+Paullinia_platymisca_a	Typical	Typical	Liana	Present	Pachytoechus	Pachytoechus	Paullinia I
+Paullinia_prevostiana_a	Typical	Typical	Liana	Present	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_pseudota	Ectopic-cambia	Ectopic-cambia	Liana	Present	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_reticulata_a	Typical	Typical	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia I
+Paullinia_revoluta	Typical	Typical	Liana	Present	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_rhomboidea	Typical	Typical	Liana	Present	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_rubiginosa_a	Cambial	Lobed+Phloem-wedges	Liana	Present	Diphtherotoechus	Diphtherotoechus	Paullinia IV/V
+Paullinia_rugosa_a	Cambial	Phloem-wedges	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_selenoptera_a	Cambial	Lobed	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_serjaniifolia_a	Cambial	Lobed	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_setosa_a	Typical	Typical	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_simulans_a	Cambial	Phloem-wedges	Liana	Present	Unplaced	Unplaced	Paullinia VII
+Paullinia_sp._b	Typical	Typical	Liana	Present	NA	NA	NA
+Paullinia_sp._d	Cambial	Phloem-wedges	Liana	Present	NA	NA	Paullinia VII
+Paullinia_spicata	Procambial	Compound	Liana	Present	Neurotoechus	Neurotoechus	Paullinia VII
+Paullinia_stellata	Cambial	Lobed+Phloem-wedges	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia IV/V
+Paullinia_stenopetala	Typical	Typical	Liana	Present	Diphtherotoechus	Diphtherotoechus	Paullinia IV/V
+Paullinia_stipularis	Cambial	Lobed	Liana	Present	Diphtherotoechus	Diphtherotoechus	Paullinia IV/V
+Paullinia_tetragona	Typical	Typical	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_tomentosa	Typical	Typical	Liana	Present	Pleurotoechus	Pleurotoechus	Paullinia III
+Paullinia_tricornis	Typical	Typical	Liana	Present	Xyloptilon	Xyloptilon	Paullinia IV/V
+Paullinia_trigonia	Ectopic-cambia	Ectopic-cambia	Liana	Present	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_trilatera	Procambial	Compound	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_trisulca_a	Cambial	Lobed	Liana	Present	Caloptilon	Caloptilon	Paullinia VI
+Paullinia_turbacensis	Cambial	Phloem-wedges	Liana	Present	Xyloptilon	Xyloptilon	Paullinia VII
+Paullinia_unifoliolata	Typical	Typical	Liana	Present	Unplaced	Unplaced	Paullinia IV/V
+Paullinia_venezuelana	Typical	Typical	Liana	Present	Xyloptilon	Xyloptilon	Paullinia IV/V
+Paullinia_verecunda_a	Cambial	Lobed	Liana	Present	Unplaced	Unplaced	Paullinia VI
+Paullinia_vespertilio_a	Typical	Typical	Liana	Present	Neuroptilon	Neuroptilon	Paullinia IV/V
+Paullinia_weinmanniifolia_a	Ectopic-cambia	Ectopic-cambia	Liana	Present	Phygoptilon	Phygoptilon	Paullinia III
+Paullinia_xestophylla_a	Typical	Typical	Liana	Present	Pachytoechus	Pachytoechus	Paullinia I
+Serjania_acuta	Typical	Typical	Liana	Present	Physococcus	Physococcus	Serjania I
+Serjania_acutidentata	Procambial	Compound	Liana	Present	Oococcus	Serjania	Serjania I
+Serjania_adenophylla	Procambial	Compound	Liana	Present	Unplaced	Unplaced	Serjania III
+Serjania_altissima	Cambial	Phloem-wedges	Liana	Present	Eurycoccus	Eurycoccus	Serjania III
+Serjania_ampelopsis	Typical	Typical	Liana	Present	Platycoccus	Platycoccus	Serjania VI
+Serjania_atrolineata_a	Procambial	Compound	Liana	Present	Dictyococcus	Serjania	Serjania III
+Serjania_bahiana	Typical	Typical	Liana	Present	Unplaced	Unplaced	Serjania I
+Serjania_biternata	Typical	Typical	Liana	Present	Unplaced	Unplaced	Serjania I
+Serjania_brachycarpa	Typical	Typical	Liana	Present	Phacococcus	Serjania	Serjania III
+Serjania_calligera	Typical	Typical	Liana	Present	Ceratococcus	Ceratococcus	Serjania IV
+Serjania_caracasana	Procambial+Ectopic-cambia	Compound+Ectopic-cambia	Liana	Present	Eucoccus	Serjania	Serjania I
+Serjania_cardiospermoides	Procambial	Compound	Liana	Present	Platycoccus	Platycoccus	Serjania VI
+Serjania_clematidifolia	Procambial	Compound	Liana	Present	Simococcus	Serjania	Serjania II
+Serjania_columbiana	Procambial	Compound	Liana	Present	Syncoccus	Serjania	Serjania III
+Serjania_communis_a	Procambial	Compound	Liana	Present	Platycoccus	Platycoccus	Serjania VI
+Serjania_confertiflora_a	Procambial	Compound	Liana	Present	Platycoccus	Confertiflora	Serjania II
+Serjania_coradinii	Typical	Typical	Liana	Present	Unplaced	Unplaced	Serjania V
+Serjania_cornigera_a	Cambial	Phloem-wedges	Liana	Present	Ceratococcus	Ceratococcus	Serjania III
+Serjania_corrugata_a	Procambial+Ectopic-cambia	Divided+Ectopic-cambia	Liana	Present	Eurycoccus	Eurycoccus	Serjania V
+Serjania_crassifolia	Procambial	Compound	Liana	Present	Simococcus	Serjania	Serjania II
+Serjania_diffusa	Procambial	Compound	Liana	Present	Syncoccus	Serjania	Serjania IV
+Serjania_dumicola	Procambial	Compound	Liana	Present	Platycoccus	Platycoccus	Serjania VI
+Serjania_dura	Cambial	Typical	Liana	Present	Eurycoccus	Eurycoccus	Serjania V
+Serjania_emarginata	Typical	Typical	Liana	Present	Physococcus	Physococcus	Serjania III
+Serjania_eriocarpa_a	Typical	Typical	Liana	Present	Syncoccus	Serjania	Serjania VII
+Serjania_erythrocaulis	Procambial	Divided	Liana	Present	Unplaced	Unplaced	Serjania V
+Serjania_faveolata	Ectopic-cambia	Ectopic-cambia	Liana	Present	Eucoccus	Serjania	Serjania V
+Serjania_ferruginea	Procambial	Compound	Liana	Present	Platycoccus	Platycoccus	Serjania VI
+Serjania_flaviflora	Typical	Typical	Liana	Present	Physococcus	Physococcus	Serjania III
+Serjania_fluminensis_a	Procambial	Compound	Liana	Present	Unplaced	Unplaced	Serjania II
+Serjania_foveata	Typical	Typical	Liana	Present	Platycoccus	Platycoccus	Serjania I
+Serjania_fuscifolia	Procambial	Compound	Liana	Present	Simococcus	Serjania	Serjania II
+Serjania_glutinosa	Typical	Typical	Liana	Present	Eurycoccus	Unplaced	Serjania V
+Serjania_grammatophora	Typical	Typical	Liana	Present	Phacococcus	Serjania	Serjania I
+Serjania_hatschbachii	Procambial	Compound	Liana	Present	Unplaced	Platycoccus	Serjania VI
+Serjania_impressa	Procambial	Compound	Liana	Present	Syncoccus	Serjania	Serjania II
+Serjania_inebrians	Procambial	Compound	Liana	Present	NA	NA	Serjania III
+Serjania_inflata	Procambial	Compound	Liana	Present	Physococcus	Physococcus	Serjania I
+Serjania_inscripta	Procambial	Compound	Liana	Present	Platycoccus	Confertiflora	Serjania II
+Serjania_insignis	Procambial	Compound	Liana	Present	Syncoccus	Serjania	Serjania III
+Serjania_lancistipula	Procambial	Divided	Liana	Present	Unplaced	Unplaced	Serjania V
+Serjania_laruotteana	Procambial	Compound	Liana	Present	Eucoccus	Platycoccus	Serjania I
+Serjania_lateritia	Typical	Typical	Liana	Present	Eurycoccus	Eurycoccus	Serjania III
+Serjania_laxiflora	Typical	Typical	Liana	Present	Eurycoccus	Eurycoccus	Serjania V
+Serjania_leptocarpa	Procambial	Compound	Liana	Present	Platycoccus	Platycoccus	Serjania VI
+Serjania_longistipula	Procambial	Compound	Liana	Present	Physococcus	Physococcus	Serjania IV
+Serjania_mansiana_a	Typical	Typical	Liana	Present	Syncoccus	Serjania	Serjania VII
+Serjania_marginata_a	Procambial	Compound	Liana	Present	Eucoccus	Serjania	Serjania I
+Serjania_membranacea	Typical	Typical	Liana	Present	Holcococcus	Serjania	Serjania III
+Serjania_meridionalis_a	Ectopic-cambia	Ectopic-cambia	Liana	Present	Syncoccus	Serjania	Serjania I
+Serjania_mexicana_a	Cambial+Ectopic-cambia	Phloem-wedges+Ectopic-cambia	Liana	Present	Phacococcus	Serjania	Serjania I
+Serjania_mollis_a	Procambial	Compound	Liana	Present	Ceratococcus	Ceratococcus	Serjania III
+Serjania_monogyna	Procambial	Compound	Liana	Present	Unplaced	Unplaced	Serjania II
+Serjania_noxia	Procambial	Compound	Liana	Present	Syncoccus	Serjania	Serjania II
+Serjania_nutans	Procambial	Compound	Liana	Present	Oococcus	Serjania	Serjania II
+Serjania_orbicularis	Typical	Typical	Liana	Present	Syncoccus	Serjania	Serjania I
+Serjania_ovalifolia	Procambial	Compound	Liana	Present	Simococcus	Serjania	Serjania III
+Serjania_oxyphylla	Typical	Typical	Liana	Present	Physococcus	Physococcus	Serjania I
+Serjania_paniculata	Procambial	Compound	Liana	Present	Dictyococcus	Serjania	Serjania III
+Serjania_paradoxa	Procambial+Ectopic-cambia	Divided+Ectopic-cambia	Liana	Present	Eurycoccus	Eurycoccus	Serjania V
+Serjania_paucidentata_a	Procambial	Compound	Liana	Present	Oococcus	Serjania	Serjania I
+Serjania_pedicellaris	Typical	Typical	Liana	Present	Eurycoccus	Eurycoccus	Serjania V
+Serjania_perulacea	Procambial+Ectopic-cambia	Compound+Ectopic-cambia	Liana	Present	Oococcus	Serjania	Serjania I
+Serjania_piscatoria	Procambial+Cambial+Ectopic-cambia	Compound+Fissured+Ectopic-cambia	Liana	Present	Eucoccus	Serjania	Serjania II
+Serjania_platycarpa_a	Typical	Typical	Liana	Present	Eurycoccus	Eurycoccus	Serjania VII
+Serjania_polystachya	Typical	Typical	Liana	Present	Physococcus	Physococcus	Serjania III
+Serjania_psilophylla	Typical	Typical	Liana	Present	Physococcus	Physococcus	Serjania I
+Serjania_pterarthra	Typical	Typical	Liana	Present	Unplaced	NA	Serjania I
+Serjania_purpurascens	Procambial	Compound	Liana	Present	Syncoccus	Serjania	Serjania II
+Serjania_pyramidata_a	Procambial+Cambial+Ectopic-cambia	Compound+Phloem-wedges+Ectopic-cambia	Liana	Present	Eucoccus	Serjania	Serjania II
+Serjania_racemosa	Cambial	Phloem-wedges	Liana	Present	Physococcus	Physococcus	Serjania III
+Serjania_rhombea	Procambial	Compound	Liana	Present	Syncoccus	Serjania	Serjania III
+Serjania_rigida	Procambial	Compound	Liana	Present	Physococcus	Physococcus	Serjania I
+Serjania_rubicaulis	Cambial	Phloem-wedges	Liana	Present	Phacococcus	Serjania	Serjania I
+Serjania_rufa_a	Procambial	Compound	Liana	Present	Syncoccus	Serjania	Serjania III
+Serjania_rufisepala	Typical	Typical	Liana	Present	Physococcus	Physococcus	Serjania I
+Serjania_salzmanniana	Cambial	Phloem-wedges	Liana	Present	Eurycoccus	Eurycoccus	Serjania V
+Serjania_scopulifera	Procambial+Cambial	Compound+Phloem-wedges	Liana	Present	Oococcus	Serjania	Serjania I
+Serjania_seemannii	Procambial	Compound	Liana	Present	Eucoccus	Serjania	Serjania I
+Serjania_seriana_a	Procambial	Compound	Liana	Present	Unplaced	NA	Serjania III
+Serjania_serjanioides	Typical	Typical	Liana	Present	Unplaced	NA	Serjania III
+Serjania_sphaerococca_a	Procambial	Compound	Liana	Present	Eucoccus	Serjania	Serjania I
+Serjania_striata	Typical	Typical	Liana	Present	Physococcus	Physococcus	Serjania I
+Serjania_subimpunctata	Cambial	Phloem-wedges	Liana	Present	Eurycoccus	Eurycoccus	Serjania V
+Serjania_subrotundifolia	Procambial	Compound	Liana	Present	Simococcus	Serjania	Serjania II
+Serjania_sufferruginea	Procambial	Compound	Liana	Present	Physococcus	Physococcus	Serjania IV
+Serjania_tailloniana	Procambial	Compound	Liana	Present	Unplaced	NA	Serjania III
+Serjania_tenuifolia	Procambial	Compound	Liana	Present	Simococcus	Serjania	Serjania II
+Serjania_tenuis	Procambial	Compound	Liana	Present	Platycoccus	Platycoccus	Serjania VI
+Serjania_trachygona	Procambial	Compound	Liana	Present	Unplaced	NA	Serjania III
+Serjania_tripleuria	Procambial	Compound	Liana	Present	Unplaced	Unplaced	Serjania I
+Serjania_triquetra	Procambial	Compound	Liana	Present	Physococcus	Physococcus	Serjania III
+Serjania_tristis	Cambial	Phloem-wedges	Liana	Present	Syncoccus	Serjania	Serjania I
+Serjania_unidentata	Procambial	Compound	Liana	Present	Unplaced	Platycoccus	Serjania VI
+Serjania_yucatanensis	Procambial	Compound	Liana	Present	Unplaced	Unplaced	Serjania III
+Thinouia_compressa_a	Typical	Typical	Liana	Present	Petalodine	Petalodine	Thinouia
+Thinouia_mucronata_a	Ectopic-cambia	Ectopic-cambia	Liana	Present	Petalodine	Petalodine	Thinouia
+Thinouia_myriantha_a	Typical	Typical	Liana	Present	Lepidodine	Lepidodine	Thinouia
+Thinouia_paraguaiensis_a	Typical	Typical	Liana	Present	Unplaced	Unplaced	Thinouia
+Thinouia_scandens	Ectopic-cambia	Ectopic-cambia	Liana	Present	Petalodine	Petalodine	Thinouia
+Thinouia_silveirae	Typical	Typical	Liana	Present	Unplaced	Unplaced	Thinouia
+Thinouia_trifoliolata_a	Typical	Typical	Liana	Present	Unplaced	Unplaced	Thinouia
+Thinouia_ventricosa_a	Ectopic-cambia	Ectopic-cambia	Liana	Present	Petalodine	Petalodine	Thinouia
+Thouinia_acuminata	Typical	Typical	Tree	Absent	NA	NA	NA
+Thouinia_trifoliata	Typical	Typical	Tree	Absent	NA	NA	NA
+Urvillea_andersonii	Cambial	Lobed	Liana	Present	Unplaced	Stenelytron	Urvillea II
+Urvillea_chacoensis_a	Cambial	Lobed	Liana	Present	Unplaced	Urvillea	Urvillea I
+Urvillea_filipes	Ectopic-cambia	Ectopic-cambia	Liana	Present	Physelytron	Urvillea	Urvillea I
+Urvillea_glabra	Cambial	Lobed	Liana	Present	Physelytron	Urvillea	Urvillea I
+Urvillea_intermedia	Typical	Typical	Liana	Present	Physelytron	Urvillea	Urvillea I
+Urvillea_laevis_a	Cambial	Fissured	Liana	Present	Stenelytron	Stenelytron	Urvillea II
+Urvillea_oliveirae	Typical	Typical	Liana	Present	Unplaced	Urvillea	Urvillea I
+Urvillea_stipitata	Cambial	Lobed+Phloem-wedges	Liana	Present	Stenelytron	Stenelytron	Urvillea II
+Urvillea_ulmacea_a	Cambial	Lobed	Liana	Present	Physelytron	Urvillea	Urvillea I
+Urvillea_uniloba_a	Cambial	Lobed+Phloem-wedges	Liana	Present	Physelytron	Urvillea	Urvillea I
