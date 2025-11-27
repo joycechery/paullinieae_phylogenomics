@@ -1,5 +1,19 @@
+###############################################################################
+# Generate publication figure of chronogram
+# By Joyce G. Onyenedum with help from ChatGPT
+###############################################################################
+
+library(ape)
+library(treeio)
+library(ggtree)
+library(ggplot2)
+#install.packages("remotes")   # If not yet installed
+#remotes::install_github("willgearty/deeptime")
+library(deeptime)
+
+
 ## TREE WITH NODE VALUES
-setwd("/Users/joyce.onyenedum/Library/CloudStorage/Box-Box/Onyenedum_Lab/Joyce_Onyenedum/Projects/Paullinieae_Phylogeny/*MANUSCRIPT/5.CHRONOGRAM.pl/tree.pl/pau333s_351g/treepl_chronogram_nosubsp./chronograms/")
+setwd("/Users/joyce.onyenedum/Library/CloudStorage/Box-Box/Onyenedum_Lab/Joyce_Onyenedum/Projects/Paullinieae_Phylogeny/*MANUSCRIPT/10.DRAFTS/Draft_V9/Revision_v1/V2/Supplementary Information/Tree_Inference/10.CHRONOGRAM/treepl_chronogram_nosubsp./chronograms/")
 tree <- read.beast("CI-combined_chronograms.tre")
 
 # Extract min and max values from height_0.95_HPD
@@ -40,4 +54,3 @@ p <- ggtree(tree) +
   theme_tree2()
 
 revts(p)
-Results

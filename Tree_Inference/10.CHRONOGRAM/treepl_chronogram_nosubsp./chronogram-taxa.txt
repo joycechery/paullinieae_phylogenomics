@@ -1,5 +1,5 @@
 chronogram-taxa
-Acevedoa_integerrimum_a
+Pacevedoa_integerrimum_a
 Allophylastrum_frutescens
 Allophylus_leucoclados
 Allophylus_psilospermus
