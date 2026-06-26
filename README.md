@@ -29,7 +29,7 @@ Given the computational constraints on the NYU High Performance Computer (HPC), 
 
 -	09.ASTRAL: This folder contains the script to run individual gene trees for each of the 351 mafft + trimal exon alignments. The subfolders content: “trimmed_exons” contains 351 post mafft +trimal alignments; “exon_trees” contain 351 gene trees; “ASTRAL_analysis” contains the input trees and result of an ASTRAL analysis. 
 
--	10.CHRONOGRAM: Given the size of the dataset (351 genes and 333 samples) a BEAST analysis was not feasible, so we opted to use treePL. Here we used the iqtree consensus tree as a topological constraint to make 1000 bootstrap trees with varying branch lengths. Then we subsampled 100 random bootstrap trees to individually time calibrate using treePL. Those 100 chronograms were collapsed using TreeAnnotator to generate a chronogram where the height 95%HPD is equivalent to the uncertainty given the variability of branch lengths among the 100 bootstrap chronogram trees. 
+-	10.CHRONOGRAM: Given the size of the dataset (351 genes and 333 samples) a BEAST analysis was not feasible, so we opted to use treePL. Here we used the iqtree consensus tree as a starting tree to make 1000 bootstrap trees with varying branch lengths and topologies. Then we subsampled 100 random bootstrap trees to individually time calibrate using treePL. Those 100 chronograms were summarized using sumtrees.py python script from DendroPy v5 to generate a chronogram where the height 95%HPD is equivalent to the uncertainty given the variability of branch lengths among the 100 bootstrap chronogram trees. 
 
 ###########
 00–01.Batch1_Trimmomatic&HybPiper_Assembly
@@ -257,8 +257,11 @@ Scripts:
 
 	-	3.TreePL_loop.py
 		-	This script uses treePL and the “config_template.txt” file to loop through each of the pruned trees to time calibrate each of them and export each chronogram into a subfolder called “chronograms”
-	
-	-	4.Chronogram.R
+
+    -   4. SumTrees.py
+           - This script uses the sumtrees.py python script from DendroPy to summarized across the 100 treepl chronograms to make a summary chronogram.
+              
+	-	5.Chronogram_Figure.R
 		-	This script was used to take the raw chronogram tree file and make it into a figure for publication.
 
 Files:
@@ -305,15 +308,14 @@ The workflow to generate the chronogram is outlined below:
 4.	Generate chronogram
 	-	In terminal (within the newly generated “chronograms” folder)
 		- 	cat *.tre > combined_chronograms.tre
-		- 	Open combined_chronograms.tre in Figtree and export as a nexus tree  combined_chronograms.nexus
+		- 	Open combined_chronograms.tre in Figtree to ensure it has all 100 trees
 
--	Download and open TreeAnnotator (https://beast.community/treeannotator) 
-		-  Settings:
-			1.	Input Tree “combined_chronograms.nexus”  
-			2.	Target tree type “Maximum clade credibility tree”
-			3.	Node heights “Median Heights”
-		- Output Tree CI-combined_chronograms.tre
-			-	This is is the chronogram.
+ 
+ 5. Download DendroPy [https://github.com/jeetsukumaran/DendroPy/blob/main/README.md]
+    - Place the DendroPy folder within the main chronogram directory [this is not included in our github folders]
+    - Run the 4.SumTrees.py script.
+    - This will produce a file called "SumTree_Chronogram.nex"-- warning, you may need to delete the taxa block from the nexus file for it to open in FigTree 
+		- The SumTree_Chronogram.nex file with the taxa block removed is called CI-combined_chronograms.nex and the newick format is called CI-combined_chronograms.tre
 
 ## PHYLOGENETIC COMPARATIVE METHODS SUBFOLDERS ###
 
