@@ -1,0 +1,51 @@
+[Input files containing the ML trees]
+treefile = 
+
+[General commands]
+numsites = 213703
+nthreads = 4
+thorough
+log_pen
+
+
+[Calibrations]
+
+mrca = SAP Talisia_nervosa Serjania_nutans
+min = SAP 62
+max = SAP 76
+mrca = ALLO Thouinia_acuminata Allophylus_leucoclados
+min = ALLO 46
+max = ALLO 51
+mrca = PAU Urvillea_oliveirae Paullinia_pinnata_a
+min = PAU 18
+max= PAU 19
+
+
+[Priming command]
+#prime
+
+[Best optimisation parameters]
+opt = 1
+moredetail
+optad = 2
+moredetailad
+optcvad = 1
+moredetailcvad
+
+
+[Cross-validation analysis]
+#randomcv
+#cviter = 5
+#cvsimaniter = 1000000000
+#cvstart = 100000
+#cvstop = 0.000000000001
+#cvmultstep = 0.1
+#cvoutfile = cvoutfile.txt
+
+[Best smoothing value]
+
+smooth = 0.000000001
+
+[Output file of dating step]
+outfile = 
+
