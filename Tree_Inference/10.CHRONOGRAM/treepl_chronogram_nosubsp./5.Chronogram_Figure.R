@@ -30,21 +30,21 @@ p <- ggtree(tree) +
   # Updated to use the SumTrees HPD variable name
   geom_range("age_hpd95", color = "steelblue", size = 1.7, alpha = 0.8) +
   geom_tiplab(size = 1.8) +
-  #  geom_text2(
-  #    aes(label = ifelse(
-  #      !isTip & !is.na(age_mean) & age_mean > 0,
-  #      paste0(
-  #        sprintf("%.2f", age_mean), " [",
-  #        sprintf("%.2f", age_hpd95_min), "-",
-  #        sprintf("%.2f", age_hpd95_max), "]"
-  #      ),
-  #      NA
-  #    )),
-  #    hjust = -0.15,
-#    size = 1,
-#    na.rm = TRUE
-#  ) +
-# Adjust xlim if your root age (~68.8 Mya) is cut off by the geological timeline
+    geom_text2(
+      aes(label = ifelse(
+        !isTip & !is.na(age_mean) & age_mean > 0,
+        paste0(
+          sprintf("%.2f", age_mean), " [",
+          sprintf("%.2f", age_hpd95_min), "-",
+          sprintf("%.2f", age_hpd95_max), "]"
+        ),
+        NA
+      )),
+      hjust = -0.15,
+    size = 1,
+    na.rm = TRUE
+  ) +
+# Adjust xlim 
 coord_geo(
   xlim = c(-75, 10), 
   ylim = c(0, 227), # Adjusted ylim to fit screme
