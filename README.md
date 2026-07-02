@@ -384,20 +384,6 @@ Subfolder: BAMM. This subfolder contains the code, data, and input files for est
 			-	Paullinieae_event_data.txt
 			-	Paullinieae_mcmc_out.txt
 
-Subfolder: HiSSE. This subfolder contains the code and data for estimating trait-dependent diversification using HiSSE.
-
--	Script: HiSSE_VascularVariants.R
--	Data: Dataset_HiSSE.csv
-		-	Dataset of the presence and absence of vascular variants, tendrils, lianas, and zygomorphic flowers. 
--	Input Tree: CI-combined_chronograms
-		-	Original chronogram
--	Additional files: 
-	-	Intermediate outputs/inputs
-		-	Paullinieae_hisse.rdata 
-			-	Contains the objects from the model selection step. 
-		-	 Recon_objects.rdata
-			-	Contains the objects from the model averaging ste
-
 
 
 
