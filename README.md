@@ -1,4 +1,4 @@
-#### This README document describes the bioinformatic workflow for Cunha Neto et al. “Rampant convergent evolution of vascular oddities and a synnovation characterize the rapid radiation of Paullinieae lianas”. ####
+#### This README document describes the bioinformatic workflow for Cunha-Neto et al. “Rampant convergent evolution of vascular novelties characterizes the diversification of Paullinieae (Sapindaceae) lianas”. ####
 
 #### MAIN FOLDERS. ####
 
