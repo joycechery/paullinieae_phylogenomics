@@ -13,7 +13,7 @@ library(reshape2)
 library(ggplot2)
 
 # ---- Set working directory ----
-setwd("~/Desktop/stochastic-character-maps&heatmap-FINAL/")
+setwd("~/Desktop")
 
 #Read in and summarize simmap RDS
 simmap_trees <- readRDS("simmap.trees_vc.RDS")
@@ -22,7 +22,14 @@ print(summary_stm)
 
 # Define your intended biological order of states
 # Factorize the trait data
-state_levels <- c("Typical" ,"Procambial" ,"Cambial" ,"Ectopic-cambia" ,"Procambial+Cambial" ,"Procambial+Cambial+Ectopic-cambia" ,"Procambial+Ectopic-cambia" ,"Cambial+Ectopic-cambia")
+state_levels <- c("TYP" ,
+  "PRO" ,
+  "CAM" ,
+  "ETC" ,
+  "PRO+CAM" ,
+  "PRO+CAM+ETC" ,
+  "PRO+ETC" ,
+  "CAM+ETC")
 
 ###############################################################################
 # Transition Matrix Parsing and Heatmap Visualization
@@ -83,28 +90,31 @@ df$fill_color <- with(df, ifelse(From == To, NA, Rate))
 # ---- Plot heatmap ----
 ggplot(df, aes(x = To, y = From, fill = fill_color)) +
   geom_tile(color = "white") +
-  geom_text(aes(label = ifelse(is.na(fill_color), "", round(Rate, 2))), size = 4) +
+  geom_text(aes(label = ifelse(is.na(fill_color), "", round(Rate, 2))), size = 7) +
   scale_fill_gradientn(
     colours = c("lightgrey", "lightyellow", "tomato", "darkred"),
     values = scales::rescale(c(0, 0.6, 15, 20)), # Must match patterns exactly!
-    limits = c(0, 20),                       # Must match patterns exactly!
+    limits = c(0, 20),                         # Must match patterns exactly!
     name = "Rate",
     na.value = "darkgrey") +
   coord_fixed() +
   scale_x_discrete(position = "top") +
   scale_y_discrete(limits = rev(state_levels)) +
   labs(x = "To", y = "From") +
-  theme_minimal(base_size = 8) +
+  theme_minimal(base_size = 16) +
   theme(
-    axis.text.x = element_text(size = 12, angle = 45, hjust = 0, vjust = 0.02,
+    axis.text.x = element_text(size = 18, angle = 45, hjust = 0, vjust = 0.02,
                                margin = margin(b = -5)),
-    axis.text.y = element_text(size = 12),
-    axis.title.x = element_text(size =18, margin = margin(t = -5)),
+    axis.text.y = element_text(size = 18),
+    axis.title.x = element_text(size = 18, margin = margin(t = -5)),
     axis.title.y = element_text(size = 18, margin = margin(r = 5)),
+    legend.title = element_text(size = 16),
+    legend.text = element_text(size = 14),
+    legend.key.height = unit(1.2, "cm"),
+    legend.key.width = unit(0.6, "cm"),
     panel.grid = element_blank(),
     plot.title = element_blank()
   )
-
 
 
 ###############################################################################
@@ -119,4 +129,4 @@ cat("\n--- TRANSITION RATE MATRIX TABLE ---\n")
 print(round(heatmap_table, 3))
 
 # 3.Export this table to a CSV file to open directly in Excel
-write.csv(heatmap_table, "heatmap_vascular_categories_rates.csv", row.names = TRUE)
+write.csv(heatmap_table, "Heatmap_vascular_categories_rates.csv", row.names = TRUE)
