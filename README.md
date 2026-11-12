@@ -341,10 +341,10 @@ Script: simmaps_habits.R  (will need to source plot_simmap.R)
 -	Input Tree: CI-combined_chronograms.tre
 -	Simmap results: simmap.trees_habits.RDS
 
-Script: HeatMap-patterns_vascular-patterns.R
+Script: Heatmap_vascular-patterns.R
 -	Data: simmap.trees_vp.RDS
   
-Script: HeatMap-patterns_vascular-categories.R
+Script: Heatmap__vascular-categories.R
 -	Data: simmap.trees_vc.RDS
   
 
