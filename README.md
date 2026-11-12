@@ -344,7 +344,7 @@ Script: simmaps_habits.R  (will need to source plot_simmap.R)
 Script: Heatmap_vascular-patterns.R
 -	Data: simmap.trees_vp.RDS
   
-Script: Heatmap__vascular-categories.R
+Script: Heatmap_vascular-categories.R
 -	Data: simmap.trees_vc.RDS
   
 
