@@ -346,6 +346,9 @@ Script: Heatmap_vascular-patterns.R
   
 Script: Heatmap_vascular-categories.R
 -	Data: simmap.trees_vc.RDS
+
+Script: Transitions_through_time_plot.R
+- Data: simmap.trees_vc.RDS
   
 
 Subfolder: Phylogenetic signal. This subfolder contains the code and data to estimate phylogenetic signal with vascular variants. 
